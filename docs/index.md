@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+# Welcome to Nyarch Linux Wiki
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+The Nyarch Linux wiki is designed to be a **straightforward** and **accessible** resource for users of all skill levels, particularly those new to Nyarch Linux.
+Unlike the comprehensive [Arch Wiki](https://wiki.archlinux.org), the Nyarch Linux Wiki focuses on providing **simpler, easy-to-understand information on various topics**. Additionally, it offers Nyarch-specific **guidance and recommendations** to help you enhance your experience with Nyarch Linux.
 
-## Commands
+## Contributing to the Wiki
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+You can contribute to the wiki on [GitHub](https://github.com/NyarchLinux/NyarchWiki).
