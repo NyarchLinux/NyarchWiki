@@ -4,6 +4,7 @@ If you have already installed a Linux Distribution, the installation procedure f
 
 If you have not already installed a Linux Distribution, please consider installing another distribution.
 If you still want to go on, then you can decide to install Nyarch on:
+
 1. [Your Computer](#Installing-Nyarch-on-your-computer)
 2. [Virtual Machine](#Installing-Nyarch-on-a-Virtual-Machine)
 3. [On an existing Linux Distro](#Installing-Nyarch-With-Nyarcher)

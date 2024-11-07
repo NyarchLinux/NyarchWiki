@@ -9,14 +9,14 @@ theme:
   icon: 
     repo: fontawesome/brands/github 
   palette:
-    - scheme: default
+    - scheme: slate
       accent: pink
       toggle:
         icon: material/brightness-7 
-        name: Switch to dark mode
+        name: Switch to light mode
 
     # Palette toggle for dark mode
-    - scheme: slate
+    - scheme: indigo
       accent: pink
       toggle:
         icon: material/brightness-4
