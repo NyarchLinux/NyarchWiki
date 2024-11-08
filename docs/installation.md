@@ -66,4 +66,33 @@ It's a **temporary operating system** that you can run from a USB drive or CD, w
 
 This way, **you can test how the Linux distribution works**, specially **Wifi, hardware device, sound etc...**. You can also explore some of Nyarch features, however consider that **the performances are worst compared to the installed system** due to USB drive I/O Speeds.
 
+In case you need to do an operation that requires the user password to be put while you are in the live environment, the password is `live`.
 #### Nyarch Installer
+The installer will be launched automatically at the start of the system.
+
+![immagine](https://github.com/user-attachments/assets/d294db49-5fd7-4844-9083-59790998dcc7)
+
+It will then prompt you your localization settings. Compile them according to your preferences.
+
+##### Partitioning
+**Note**: Be careful in this part since an error might cause data loss!
+![immagine](https://github.com/user-attachments/assets/dea978b0-b0fd-4d23-b05d-e6a4e59c6f94)
+
+Here you can choose multiple things:
+- If to erase the entire disk and install Nyarch on it. You can choose a different disk in the upper part of the window.
+- If to replace a partition with Nyarch Install (not shown in the image)
+- If to install Nyarch alongside another OS (not shown in the image)
+- To manually choose your partitions (If you know what you are doing)
+
+You can also choose:
+- **Swap**: it's like extra ram that is stored on your disk. It is strongly suggested to enable it.
+- **Filesystem**: You can choose you filesystem between these
+  - **ext4**: is the standard for Linux distribution. It's faster in many cases and is considered to be more stable.
+  - **btrfs**: supports **istant snapshots**, has more protection against data corruption and redundancy. a bit slower in some cases.
+  - xfs: don't install it unless you know what you are doing
+##### Finishing the install
+Choose your name, and wait for the install to finish!
+
+![immagine](https://github.com/user-attachments/assets/9a9b4116-dc34-4b18-9b9f-b85b40f27ed6)
+
+![immagine](https://github.com/user-attachments/assets/6115a3d3-e75c-4028-b71f-3b0a35109f4b)
