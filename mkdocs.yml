@@ -6,6 +6,7 @@ repo_url: https://github.com/NyarchLinux/NyarchWiki
 theme:
   name: material 
   logo: assets/nyarch-logo.png
+  favicon: assets/nyarch-logo.png
   icon: 
     repo: fontawesome/brands/github 
   palette:
