@@ -1,5 +1,3 @@
-![immagine](https://github.com/user-attachments/assets/3a604eb1-c1e1-4490-b16f-9698ff9a3d29)# Nyarch Linux Installation
-
 If you have already installed a Linux Distribution, the installation procedure for Nyarch Linux is the same.
 
 If you have not already installed a Linux Distribution, please consider installing another distribution.

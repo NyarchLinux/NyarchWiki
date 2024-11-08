@@ -44,7 +44,9 @@ The script will ask you if you want to apply some settings, it is **strongly sug
 
 ## What you are missing
 By running this script, you are not going to have the full Nyarch experience, here are the things that are missing from the script, but are present in the distro.
+
 Note that almost any of those things can be integrated in any distribution, by running some commands or editing a few files.
+
 - gnome-terminal-transparency is not installed by the script, it is a version of Gnome Terminal that implements transparency. Fedora users have it by default. You can install it from the [AUR](https://aur.archlinux.org/packages/gnome-terminal-transparency)
 - Webapp manager is not installed by default, you can install it from the [AUR](https://aur.archlinux.org/packages/webapp-manager)
 - plymouth (boot animation) is not installed by this script, and neither its theme. Plymouth installation is very distro-specific, [here is the wiki page for Arch Linux](https://wiki.archlinux.org/title/plymouth). The theme used by us is [here](https://github.com/NyarchLinux/NyarchLinux/tree/main/Gnome/usr/share/plymouth/themes)
