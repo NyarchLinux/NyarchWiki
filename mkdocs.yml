@@ -1,7 +1,7 @@
 site_name: Nyarch Linux Wiki
 theme: material
 repo_name: NyarchLinux
-repo_url: https://github.com/NyarchLinux/NyarchLinux
+repo_url: https://github.com/NyarchLinux/NyarchWiki
 
 theme:
   name: material 
