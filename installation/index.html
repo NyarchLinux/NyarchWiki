@@ -12,13 +12,15 @@
         <link rel="prev" href="..">
       
       
+        <link rel="next" href="../nyarcher/">
+      
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.44">
     
     
       
-        <title>Nyarch Linux Installation - Nyarch Linux Wiki</title>
+        <title>Installation - Nyarch Linux Wiki</title>
       
     
     
@@ -70,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#nyarch-linux-installation" class="md-skip">
+        <a href="#installing-nyarch-on-your-computer" class="md-skip">
           Skip to content
         </a>
       
@@ -105,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Nyarch Linux Installation
+              Installation
             
           </span>
         </div>
@@ -273,14 +275,12 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
   <span class="md-ellipsis">
-    Nyarch Linux Installation
+    Installation
   </span>
   
 
@@ -291,7 +291,7 @@
         
   
   <span class="md-ellipsis">
-    Nyarch Linux Installation
+    Installation
   </span>
   
 
@@ -302,8 +302,6 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
-  
-    
   
   
     <label class="md-nav__title" for="__toc">
@@ -390,6 +388,25 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Nyarch Installer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#partitioning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Partitioning
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finishing-the-install" class="md-nav__link">
+    <span class="md-ellipsis">
+      Finishing the install
+    </span>
+  </a>
+  
 </li>
         
       </ul>
@@ -399,6 +416,20 @@
         
       </ul>
     </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-nyarch-on-a-virtual-machine" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install Nyarch on a Virtual Machine
+    </span>
+  </a>
   
 </li>
       
@@ -406,6 +437,26 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nyarcher/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Nyarcher
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -427,8 +478,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -514,6 +563,25 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Nyarch Installer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#partitioning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Partitioning
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finishing-the-install" class="md-nav__link">
+    <span class="md-ellipsis">
+      Finishing the install
+    </span>
+  </a>
+  
 </li>
         
       </ul>
@@ -523,6 +591,20 @@
         
       </ul>
     </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-nyarch-on-a-virtual-machine" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install Nyarch on a Virtual Machine
+    </span>
+  </a>
   
 </li>
       
@@ -544,14 +626,15 @@
   
 
 
-<h1 id="nyarch-linux-installation">Nyarch Linux Installation</h1>
+  <h1>Installation</h1>
+
 <p>If you have already installed a Linux Distribution, the installation procedure for Nyarch Linux is the same.</p>
 <p>If you have not already installed a Linux Distribution, please consider installing another distribution.
 If you still want to go on, then you can decide to install Nyarch on:</p>
 <ol>
-<li><a href="#Installing-Nyarch-on-your-computer">Your Computer</a></li>
-<li><a href="#Installing-Nyarch-on-a-Virtual-Machine">Virtual Machine</a></li>
-<li><a href="#Installing-Nyarch-With-Nyarcher">On an existing Linux Distro</a></li>
+<li><a href="#installing-nyarch-on-your-computer">Your Computer</a></li>
+<li><a href="#install-nyarch-on-a-virtual-machine">Virtual Machine</a></li>
+<li><a href="/nyarcher">On an existing Linux Distro</a></li>
 </ol>
 <h2 id="installing-nyarch-on-your-computer">Installing Nyarch on your Computer</h2>
 <h3 id="prerequisites">Prerequisites</h3>
@@ -609,7 +692,41 @@ Now you are in the <strong>Live Environment</strong>. </p>
 <p>When you're installing a Linux distribution, a live environment is like a "try before you buy" experience.
 It's a <strong>temporary operating system</strong> that you can run from a USB drive or CD, without actually installing it on your computer's hard drive. </p>
 <p>This way, <strong>you can test how the Linux distribution works</strong>, specially <strong>Wifi, hardware device, sound etc...</strong>. You can also explore some of Nyarch features, however consider that <strong>the performances are worst compared to the installed system</strong> due to USB drive I/O Speeds.</p>
+<p>In case you need to do an operation that requires the user password to be put while you are in the live environment, the password is <code>live</code>.</p>
 <h4 id="nyarch-installer">Nyarch Installer</h4>
+<p>The installer will be launched automatically at the start of the system.</p>
+<p><img alt="immagine" src="https://github.com/user-attachments/assets/d294db49-5fd7-4844-9083-59790998dcc7" /></p>
+<p>It will then prompt you your localization settings. Compile them according to your preferences.</p>
+<h5 id="partitioning">Partitioning</h5>
+<p><strong>Note</strong>: Be careful in this part since an error might cause data loss!
+<img alt="immagine" src="https://github.com/user-attachments/assets/dea978b0-b0fd-4d23-b05d-e6a4e59c6f94" /></p>
+<p>Here you can choose multiple things:
+- If to erase the entire disk and install Nyarch on it. You can choose a different disk in the upper part of the window.
+- If to replace a partition with Nyarch Install (not shown in the image)
+- If to install Nyarch alongside another OS (not shown in the image)
+- To manually choose your partitions (If you know what you are doing)</p>
+<p>You can also choose:
+- <strong>Swap</strong>: it's like extra ram that is stored on your disk. It is strongly suggested to enable it.
+- <strong>Filesystem</strong>: You can choose you filesystem between these
+  - <strong>ext4</strong>: is the standard for Linux distribution. It's faster in many cases and is considered to be more stable.
+  - <strong>btrfs</strong>: supports <strong>istant snapshots</strong>, has more protection against data corruption and redundancy. a bit slower in some cases.
+  - xfs: don't install it unless you know what you are doing</p>
+<h5 id="finishing-the-install">Finishing the install</h5>
+<p>Choose your name, and wait for the install to finish, and reboot!</p>
+<p><img alt="immagine" src="https://github.com/user-attachments/assets/9a9b4116-dc34-4b18-9b9f-b85b40f27ed6" /></p>
+<p><img alt="immagine" src="https://github.com/user-attachments/assets/6115a3d3-e75c-4028-b71f-3b0a35109f4b" /></p>
+<h2 id="install-nyarch-on-a-virtual-machine">Install Nyarch on a Virtual Machine</h2>
+<ul>
+<li>Suggested VM Softwares to install Nyarch: VMWare Workstation, QEMU, Gnome Boxes</li>
+<li>Not suggested VM Softwares to install Nyarch: VirtualBox (because of the bad 3D acceleration)</li>
+</ul>
+<p>Nyarch makes a lot of use of animations to enhance the user experience, so <strong>enable 3D acceleration in the VM</strong>. Otherwise it will lag as fuck. Bro you don't want to see worst animation than Blue Lock S2, trust me.
+Create a VM with these specifications:
+- CPU: As much as you can/prefer
+- Memory: at least 3GB, suggested 6GB for a fluid system
+- Storage: 30GB minimum for installing the OS
+- UEFI/BIOS are both supported</p>
+<p>After you created and booted the VM, skip to <a href="#nyarch-live-environment">Nyarch Live Environment</a></p>
 
 
 
