@@ -1,13 +1,13 @@
-# Nyarch Linux Installation
+![immagine](https://github.com/user-attachments/assets/3a604eb1-c1e1-4490-b16f-9698ff9a3d29)# Nyarch Linux Installation
 
 If you have already installed a Linux Distribution, the installation procedure for Nyarch Linux is the same.
 
 If you have not already installed a Linux Distribution, please consider installing another distribution.
 If you still want to go on, then you can decide to install Nyarch on:
 
-1. [Your Computer](#Installing-Nyarch-on-your-computer)
-2. [Virtual Machine](#Installing-Nyarch-on-a-Virtual-Machine)
-3. [On an existing Linux Distro](#Installing-Nyarch-With-Nyarcher)
+1. [Your Computer](#installing-nyarch-on-your-computer)
+2. [Virtual Machine](#install-nyarch-on-a-virtual-machine)
+3. [On an existing Linux Distro](/nyarcher)
 ## Installing Nyarch on your Computer
 
 ### Prerequisites
@@ -91,8 +91,21 @@ You can also choose:
   - **btrfs**: supports **istant snapshots**, has more protection against data corruption and redundancy. a bit slower in some cases.
   - xfs: don't install it unless you know what you are doing
 ##### Finishing the install
-Choose your name, and wait for the install to finish!
+Choose your name, and wait for the install to finish, and reboot!
 
 ![immagine](https://github.com/user-attachments/assets/9a9b4116-dc34-4b18-9b9f-b85b40f27ed6)
 
 ![immagine](https://github.com/user-attachments/assets/6115a3d3-e75c-4028-b71f-3b0a35109f4b)
+
+## Install Nyarch on a Virtual Machine
+- Suggested VM Softwares to install Nyarch: VMWare Workstation, QEMU, Gnome Boxes
+- Not suggested VM Softwares to install Nyarch: VirtualBox (because of the bad 3D acceleration)
+
+Nyarch makes a lot of use of animations to enhance the user experience, so **enable 3D acceleration in the VM**. Otherwise it will lag as fuck. Bro you don't want to see worst animation than Blue Lock S2, trust me.
+Create a VM with these specifications:
+- CPU: As much as you can/prefer
+- Memory: at least 3GB, suggested 6GB for a fluid system
+- Storage: 30GB minimum for installing the OS
+- UEFI/BIOS are both supported
+
+After you created and booted the VM, skip to [Nyarch Live Environment](#nyarch-live-environment)
