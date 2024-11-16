@@ -3,10 +3,22 @@ theme: material
 repo_name: NyarchWiki
 repo_url: https://github.com/NyarchLinux/NyarchWiki
 
+nav:
+    - 'index.md'
+    - Installation:
+         - 'installation.md'
+         - 'nyarcher.md'
+    - 'applications.md'
+    - 'nyarchassistant.md'
+
 theme:
   name: material 
   logo: assets/nyarch-logo.png
   favicon: assets/nyarch-logo.png
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.expand
   icon: 
     repo: fontawesome/brands/github 
   palette:
