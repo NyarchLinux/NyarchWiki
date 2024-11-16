@@ -7,8 +7,8 @@ Supported packages:
 
 1. [Arch Linux Packages](#arch-linux-packages) (pacman, .tar.zst)
 2. [Flatpaks](#flatpaks) (Store, .flatpakref, .flatpak)
-3. AppImages (.appimage)
-4. Arch User Repository (nyay)
+3. [AppImages](#appimages) (.appimage)
+4. [Arch User Repository](#arch-user-repository) (yay, nyay)
 
 ## Arch Linux Packages 
 (Almost) Every Linux distribution has a package manager: it helps you to install, remove and update packages
@@ -125,5 +125,37 @@ chmod +x application.appimage
 ./application.appimage
 ```
 
+## Arch User Repository
+The [AUR](https://aur.archlinux.org/) (Arch User Repository) is a big community-driven store for packages that aren't officially supported by Arch Linux. **If an application exists, it's very likely that you will find it in the AUR.**
 
+Nyarch Linux is fully compatible with the AUR, since it uses defualt Arch Linux repositories.
 
+**Warning**: The packages on the AUR are uploaded by users, so they might not be safe. It's suggested to always check if they are trustable from the packages builds.
+
+### Installing a package
+To install an AUR package, you need an [AUR Helper](https://wiki.archlinux.org/title/AUR_helpers). 
+
+By default, Nyarch Linux ships `yay` as default AUR helper. (Or `nyay` because lol nya)
+
+To install an AUR package, you can run
+```bash
+yay -S package
+```
+For example, 
+```bash
+yay -S zen-browser-bin
+```
+
+### Updating packages
+```bash
+yay
+```
+Updates all the packages from the AUR
+### Guide to Package names
+You might encounter multiple packages for the same program. This is an example for Vesktop:
+![immagine](https://github.com/user-attachments/assets/e38667d5-a46a-4d39-8205-ad3ee276d90b)
+
+Based on the suffix:
+- `-git`: This package is built from the latest code in the Git repository. It might not be stable, but you'll get the latest features and updates. Also, it will **compile the package**
+- `-bin`: This package is a binary package, which means it's **pre-compiled** and ready to use. You don't need to build it from source
+- If there's no suffix, it usually means that the package is the "release" version. In other words, it's the latest stable version of the software, without any suffixes or prefixes.
