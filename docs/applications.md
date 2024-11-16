@@ -156,6 +156,8 @@ You might encounter multiple packages for the same program. This is an example f
 ![immagine](https://github.com/user-attachments/assets/e38667d5-a46a-4d39-8205-ad3ee276d90b)
 
 Based on the suffix:
+
 - `-git`: This package is built from the latest code in the Git repository. It might not be stable, but you'll get the latest features and updates. Also, it will **compile the package**
+
 - `-bin`: This package is a binary package, which means it's **pre-compiled** and ready to use. You don't need to build it from source
 - If there's no suffix, it usually means that the package is the "release" version. In other words, it's the latest stable version of the software, without any suffixes or prefixes.
