@@ -7,6 +7,7 @@ nav:
     - 'index.md'
     - Installation:
          - 'installation.md'
+         - 'nvidia.md'
          - 'nyarcher.md'
     - 'applications.md'
     - 'nyarchassistant.md'
