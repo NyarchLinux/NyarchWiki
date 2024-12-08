@@ -12,7 +12,7 @@ If you still want to go on, then you can decide to install Nyarch on:
 - A computer that respects the [Resource Requirements](https://nyarchlinux.moe/#requirements)
 - A USB Stick of at least 4GB capacity
 - Already a working computer (or android device if you use [Etchdroid](https://etchdroid.app/))
-- Downloaded Nyarch ISO file. The ISO file can be found at [https://nyarchlinux.moe/](https://nyarchlinux.moe/#download).
+- Downloaded the correct Nyarch ISO file. The ISO file can be found at [https://nyarchlinux.moe/](https://nyarchlinux.moe/#download). If you have a **Nvidia GPU**, check the support [here](https://wiki.nyarchlinux.moe/nvidia)
 - A backup of every important file you have on your computer
 ### Creating a Bootable Drive
 1. Download [Balena Etcher](https://etcher.balena.io/) or any similar program if you are more familiar with them
