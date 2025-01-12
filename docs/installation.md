@@ -86,7 +86,7 @@ You can also choose:
 - **Swap**: it's like extra ram that is stored on your disk. It is strongly suggested to enable it.
 - **Filesystem**: You can choose you filesystem between these
   - **ext4**: is the standard for Linux distribution. It's faster in many cases and is considered to be more stable.
-  - **btrfs**: supports **istant snapshots**, has more protection against data corruption and redundancy. a bit slower in some cases.
+  - **btrfs**: supports **instant snapshots**, has more protection against data corruption and redundancy. a bit slower in some cases.
   - xfs: don't install it unless you know what you are doing
 ##### Finishing the install
 Choose your name, and wait for the install to finish, and reboot!
