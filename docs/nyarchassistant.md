@@ -49,7 +49,7 @@ Two offline models providers are supported: GPT4All (or "Local Model") and Ollam
 **Using a model with Ollama is suggested as it has more fatures and generally better performances.**
 For suggested models, read [Suggested LLM and models](#suggested-llm-and-models)
 #### TTS
-The best supported local TTS with natural sounding voices are `Vits` and `VoiceVox`. If you have a nice Nvidia GPU (RTX Series), TTS should be almost istant. In other cases, some loading time might be required.
+The best supported local TTS with natural sounding voices are `Vits` and `VoiceVox`. If you have a nice Nvidia GPU (RTX Series), TTS should be almost instant. In other cases, some loading time might be required.
 ##### VoiceVox
 [VoiceVox](https://voicevox.hiroshiba.jp/) is an open source TTS engine really natural sounding for Japanese. 
 
