@@ -78,16 +78,25 @@ It will then prompt you your localization settings. Compile them according to yo
 
 Here you can choose multiple things:
 - If to erase the entire disk and install Nyarch on it. You can choose a different disk in the upper part of the window.
+
 - If to replace a partition with Nyarch Install (not shown in the image)
+
 - If to install Nyarch alongside another OS (not shown in the image)
+
 - To manually choose your partitions (If you know what you are doing)
 
 You can also choose:
+
 - **Swap**: it's like extra ram that is stored on your disk. It is strongly suggested to enable it.
+
 - **Filesystem**: You can choose you filesystem between these
+
   - **ext4**: is the standard for Linux distribution. It's faster in many cases and is considered to be more stable.
+
   - **btrfs**: supports **instant snapshots**, has more protection against data corruption and redundancy. a bit slower in some cases.
+
   - xfs: don't install it unless you know what you are doing
+
 ##### Finishing the install
 Choose your name, and wait for the install to finish, and reboot!
 
@@ -97,13 +106,18 @@ Choose your name, and wait for the install to finish, and reboot!
 
 ## Install Nyarch on a Virtual Machine
 - Suggested VM Softwares to install Nyarch: VMWare Workstation, QEMU, Gnome Boxes
+
 - Not suggested VM Softwares to install Nyarch: VirtualBox (because of the bad 3D acceleration)
 
 Nyarch makes a lot of use of animations to enhance the user experience, so **enable 3D acceleration in the VM**. Otherwise it will lag as fuck. Bro you don't want to see worst animation than Blue Lock S2, trust me.
 Create a VM with these specifications:
+
 - CPU: As much as you can/prefer
+
 - Memory: at least 3GB, suggested 6GB for a fluid system
+
 - Storage: 30GB minimum for installing the OS
+
 - UEFI/BIOS are both supported
 
 After you created and booted the VM, skip to [Nyarch Live Environment](#nyarch-live-environment)
