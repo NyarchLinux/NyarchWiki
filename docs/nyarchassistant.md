@@ -98,4 +98,5 @@ sudo docker run --rm --gpus all -p '127.0.0.1:50021:50021' voicevox/voicevox_eng
 
 Put `http://localhost:50021` as endpoint (or the ip/port you chosen if you host it somewhere else).
 Then, close and reopen the settings to reload the voices and then choose your favourite voice.
-
+##### Voice Cloning
+You can use [this extension](https://github.com/FrancescoCaracciolo/Newelle-Voice-Cloning) to do voice cloning with TTS.
