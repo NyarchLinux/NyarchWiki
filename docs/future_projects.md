@@ -153,8 +153,7 @@ If anyone wants to do it and can do it well I'm not stopping him.
 A small amount of code has been written using gtk_layer_shell to check that this is actually possible.
 This is the result:
 
-
-![](https://github.com/user-attachments/assets/16018382-5134-45c7-9c64-02f4922dc152)
+<video src="https://github.com/user-attachments/assets/16018382-5134-45c7-9c64-02f4922dc152"></video>
 
 
 This uses gtk_layer_shell to display a transparent webview with the model. After that, it resizes the click area to the model position and size.
@@ -198,9 +197,6 @@ For Hyprland and KDE version, similar approaches can be done.
 We can implement a writing assistant to simplify Summaries, Rewrites and similar tasks.
 
 <video src="https://github.com/user-attachments/assets/37cee779-694f-459f-a49d-8892abc46eae"></video>
-
-
-![](https://github.com/user-attachments/assets/37cee779-694f-459f-a49d-8892abc46eae)
 
 **Note**: Lag is caused by recording
 
