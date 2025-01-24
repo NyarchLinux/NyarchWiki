@@ -1,4 +1,4 @@
-# Future Projects
+![315949766-711f5475-93ca-4097-a960-8047acc85cc7](https://github.com/user-attachments/assets/3970cbc8-fa73-49a9-ae9f-1aa20bb91bba)# Future Projects
 This page contains future and in development projects with their details.  
 
 If you want to contribute to Nyarch Development, you can propose new projects, or contributing to the projects listed here. For contribution you can contact us on [Discord](https://discord.gg/xuw6BNXXE7) or [GitHub](https://github.com/NyarchLinux/NyarchLinux).
@@ -93,7 +93,8 @@ Because it's cool, we will also add [Geometry Change](https://store.kde.org/p/21
 For possible dotfiles, we have multiple possibilities:
 ##### dots-hyprland
 
-![](https://private-user-images.githubusercontent.com/97237370/315949766-711f5475-93ca-4097-a960-8047acc85cc7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzc2NjEwODMsIm5iZiI6MTczNzY2MDc4MywicGF0aCI6Ii85NzIzNzM3MC8zMTU5NDk3NjYtNzExZjU0NzUtOTNjYS00MDk3LWE5NjAtODA0N2FjYzg1Y2M3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTIzVDE5MzMwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ1ZGExNDg0M2Q3YmQxYzE4NDUzMmU0MDk0MGYwOWJmZWY5M2U0MjVkMzczYmI3Y2ZmNmU3OWU3NmQ5YWM0ZmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.TliloKYI4EW61rVTvOxIL7mVbvu4O1G3_64CB28gcSI)
+![315949766-711f5475-93ca-4097-a960-8047acc85cc7](https://github.com/user-attachments/assets/f3c3c6de-d0f3-443e-a846-df7cd46f9de3)
+
 
 [end-4's dots-hyprland](https://github.com/end-4/dots-hyprland) has a lot of features that perfectly align with Nyarch principles:
 
@@ -110,6 +111,7 @@ However, there are these issues:
 - Very likely to break over time
 
 ##### Hyprland material you
+
 
 ![](https://github.com/koeqaife/hyprland-material-you/raw/main/screenshots/screenshot1.png)
 
