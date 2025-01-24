@@ -197,6 +197,8 @@ For Hyprland and KDE version, similar approaches can be done.
 ##### Writing assistant
 We can implement a writing assistant to simplify Summaries, Rewrites and similar tasks.
 
+<video src="https://github.com/user-attachments/assets/37cee779-694f-459f-a49d-8892abc46eae"></video>
+
 
 ![](https://github.com/user-attachments/assets/37cee779-694f-459f-a49d-8892abc46eae)
 
