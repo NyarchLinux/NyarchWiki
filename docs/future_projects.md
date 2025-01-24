@@ -92,6 +92,7 @@ Because it's cool, we will also add [Geometry Change](https://store.kde.org/p/21
 
 For possible dotfiles, we have multiple possibilities:
 ##### dots-hyprland
+
 ![](https://private-user-images.githubusercontent.com/97237370/315949766-711f5475-93ca-4097-a960-8047acc85cc7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzc2NjEwODMsIm5iZiI6MTczNzY2MDc4MywicGF0aCI6Ii85NzIzNzM3MC8zMTU5NDk3NjYtNzExZjU0NzUtOTNjYS00MDk3LWE5NjAtODA0N2FjYzg1Y2M3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTIzVDE5MzMwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ1ZGExNDg0M2Q3YmQxYzE4NDUzMmU0MDk0MGYwOWJmZWY5M2U0MjVkMzczYmI3Y2ZmNmU3OWU3NmQ5YWM0ZmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.TliloKYI4EW61rVTvOxIL7mVbvu4O1G3_64CB28gcSI)
 
 [end-4's dots-hyprland](https://github.com/end-4/dots-hyprland) has a lot of features that perfectly align with Nyarch principles:
@@ -109,10 +110,12 @@ However, there are these issues:
 - Very likely to break over time
 
 ##### Hyprland material you
+
 ![](https://github.com/koeqaife/hyprland-material-you/raw/main/screenshots/screenshot1.png)
 
 [Hyprland Material You](https://github.com/koeqaife/hyprland-material-you) is a very complete configuration that respect **R1** and doesn't have a lot of dependencies.
 ##### LinkFRG Dotfiles
+
 ![](https://github.com/linkfrg/dotfiles/raw/main/assets/4.png)
 
 [linkfrg dotfiles](https://github.com/linkfrg/dotfiles/) are a very good options. Unlike the previous, it uses Ignis and not some old version of AGS, thus making it easier to maintain, more powerful, and easy to extend. Also, dependencies aren't many. It does lack some features compared to those above for now.
@@ -151,7 +154,7 @@ A small amount of code has been written using gtk_layer_shell to check that this
 This is the result:
 
 
-https://github.com/user-attachments/assets/16018382-5134-45c7-9c64-02f4922dc152
+![](https://github.com/user-attachments/assets/16018382-5134-45c7-9c64-02f4922dc152)
 
 
 This uses gtk_layer_shell to display a transparent webview with the model. After that, it resizes the click area to the model position and size.
@@ -195,7 +198,7 @@ For Hyprland and KDE version, similar approaches can be done.
 We can implement a writing assistant to simplify Summaries, Rewrites and similar tasks.
 
 
-https://github.com/user-attachments/assets/37cee779-694f-459f-a49d-8892abc46eae
+![](https://github.com/user-attachments/assets/37cee779-694f-459f-a49d-8892abc46eae)
 
 **Note**: Lag is caused by recording
 
