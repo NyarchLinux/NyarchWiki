@@ -9,12 +9,11 @@ If you want to contribute to Nyarch Development, you can propose new projects, o
 | [KDE Plasma Spin](#kde-plasma-spin) | Desktop Spin | Idea | Programming, Kirigami, ISO Building |  |
 | [Hyprland Spin](#hyprland-spin)  | Desktop Spin | Idea  | Programming, gtk-layer-shell, ISO Building |   |
 | Better AI Integration  | Desktop Application | Idea | Programming, Python  | Add writing assistant, OCR etc... and integrate with Nyarch Assistant  |
-| Nyarch Assistant Desktop Puppet  | Desktop Application | Idea | Programming, Python, GTK Layer Shell  | Acchan as a desktop pet with AI integration |
+| [Nyarch Assistant Desktop Puppet](#nyarch-assistant-desktop-puppet)  | Desktop Application | Idea | Programming, Python, GTK Layer Shell  | Acchan as a desktop pet with AI integration |
 | Nyarch Tuner  | Desktop Application | Idea | Programming, GTK  | User friendly utility to configure kernels, zram, preoload... |
 | AI Wallpaper generator  | Desktop Application | Idea | Programming, GTK  | Simple anime wallpaper generator with AI |
-| AI Wallpaper generator  | Desktop Application | Idea | Programming, GTK  | Simple anime wallpaper generator with AI |
 | Application Selection Calamares  | Improvement | Idea | Calamares  | Add a configuration page that makes you choose to disable/enable some Nyarch Features on Calamares installer |
-| New Website  | Website | Development | HTML, CSS, JS  | New modern scrolling website for Nyarch. Currently assigned to Wawa. |
+| [New Website](#new-website)  | Website | Development | HTML, CSS, JS  | New modern scrolling website for Nyarch. Currently assigned to Wawa. |
 
 ## Projects description
 In this section you can find some exploration about the projects and some software, library etc. that might accelerate development.
@@ -155,7 +154,6 @@ This is the result:
 https://github.com/user-attachments/assets/16018382-5134-45c7-9c64-02f4922dc152
 
 
-
 This uses gtk_layer_shell to display a transparent webview with the model. After that, it resizes the click area to the model position and size.
 
 The following of the cursor is done by polling the mouse position (10FPS in the demo) and making the live2d model focus it. The current implementation only works on Hyprland, but can also be done on KDE Plasma.
@@ -173,3 +171,54 @@ GTK Layer shell currently is **not supported on Gnome**, but it can likely be im
 | Add screenshot capability with Nyarch Assistant | The model can take a screenshot of the screen to help the user (obv if prompted and allowed) | TODO | Simple |  | Critical |
 | Add some idle animations | The model moves around and does thing on your desktop | TODO | Complex |  | Optional |
 | Website update | Update the website to list this feature | TODO | Simple |  | Critical |
+
+Development phase: in an early development phase, we can ship a Nyarch Assistant extension in order to receive feedback from users
+
+### Better AI Intergation
+#### Goals
+
+1. Simplify interaction with Nyarch Assistant AI
+2. Add quality of life improvements using LLM
+
+Other goals are welcome. 
+#### Requirements
+
+TBD
+
+#### Exploration
+
+##### Quick Chat access
+We can fork or collaborate with [Penguin AI Chatbot for Gnome](https://gitlab.com/martijara/Penguin-AI-Chatbot-for-GNOME) to provide on the fly chat access with Nyarch Assistant. 
+For Hyprland and KDE version, similar approaches can be done.
+
+##### Writing assistant
+We can implement a writing assistant to simplify Summaries, Rewrites and similar tasks.
+
+
+https://github.com/user-attachments/assets/37cee779-694f-459f-a49d-8892abc46eae
+
+**Note**: Lag is caused by recording
+
+#### Tasks
+TBD.
+### New website
+#### Goals
+
+1. Design a new more modern looking website for Nyarch
+2. The website must be pratical for users that already know Nyarch and just want to download the ISO or get quick info
+3. The website must show and advertise Nyarch main features
+
+#### Requirements
+1. The website must accomodate 1-3 desktop spins, showing their features and guiding the user to the right choice
+2. Installing Nyarch must still require to show the user a bit of information about what he is downloading
+3. The website must accomodate social media links, and specially advertise Discord
+4. The website must accomodate Wiki, Source code and Donations link 
+
+#### Exploration
+The website is being developed as a scorlling website. 
+
+![image](https://github.com/user-attachments/assets/e9cb45b2-f469-4969-ad6e-ef247f622ec5)
+
+#### Tasks
+
+TBD
