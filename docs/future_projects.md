@@ -6,7 +6,7 @@ If you want to contribute to Nyarch Development, you can propose new projects, o
 ## Projects Overview
 | Project | Project Type | Development Status | Required Skills | Further information |
 |---|---|---|---|---|
-| [KDE Plamsa Spin](#kde-plasma-spin) | Desktop Spin | Idea | Programming, Kirigami, ISO Building |  |
+| [KDE Plasma Spin](#kde-plasma-spin) | Desktop Spin | Idea | Programming, Kirigami, ISO Building |  |
 | [Hyprland Spin](#hyprland-spin)  | Desktop Spin | Idea  | Programming, gtk-layer-shell, ISO Building |   |
 | Better AI Integration  | Desktop Application | Idea | Programming, Python  | Add writing assistant, OCR etc... and integrate with Nyarch Assistant  |
 | Nyarch Assistant Desktop Puppet  | Desktop Application | Idea | Programming, Python, GTK Layer Shell  | Acchan as a desktop pet with AI integration |
@@ -131,4 +131,45 @@ If anyone wants to do it and can do it well I'm not stopping him.
 | Do everything else | Idk decision still have to be made lol | TODO | Complex |  | Critical |
 | Website update | Update the website to support multiple spins | TODO | Complex |  | Critical |
 
+### Nyarch Assistant Desktop Puppet
+#### Goals
 
+1. Display a Live2D model (arch-chan by default) on the desktop
+2. Easy interaction with Nyarch Assistant
+3. Keep company for alone Nyarch users
+4. Look cool
+5. Having a desktop mate and create a substitution for Desktop Mate for Linux
+#### Requirements 
+1. The model integrates with Nyarch Assistant
+2. You can interact with the model, move it around
+3. With some interactions with the model, some animations play (optional)
+4. The model follows the mouse movement with the eyes
+5. You can easily adjust the layer in which the model is
+6. Working with Nyarch desktop spins
+7. It can be run easily out of Nyarch
+#### Exploration
+A small amount of code has been written using gtk_layer_shell to check that this is actually possible.
+This is the result:
+
+
+https://github.com/user-attachments/assets/16018382-5134-45c7-9c64-02f4922dc152
+
+
+
+This uses gtk_layer_shell to display a transparent webview with the model. After that, it resizes the click area to the model position and size.
+
+The following of the cursor is done by polling the mouse position (10FPS in the demo) and making the live2d model focus it. The current implementation only works on Hyprland, but can also be done on KDE Plasma.
+GTK Layer shell currently is **not supported on Gnome**, but it can likely be implemented with almost same code with an extension.
+
+#### Tasks
+| Task | Description | Status | Complexity | Further information | Criticality |
+|---|---|---|---|---|---|
+| Correctly resize the model | At the moment the model size is not handled perfectly and does not adapt to any monitor resolution | TODO | Simple |  | Critical |
+| Support for KDE Plasma | Support KDE mouse movement and KDE monitors | TODO | Simple  | | Critical |
+| Better Hyprland support | Support for hyprland monitors | TODO | Simple |  | Critical |
+| Support Gnome | Add Gnome support, which require a custom extension | TODO | Medium |  | Critical |
+| Add model interactions | Add abilities to interact with the model and show animations | TODO | Medium |  | Critical |
+| Integration with Nyarch Assistant | The model must connect with Nyarch Assistant | TODO | Medium |  | Critical |
+| Add screenshot capability with Nyarch Assistant | The model can take a screenshot of the screen to help the user (obv if prompted and allowed) | TODO | Simple |  | Critical |
+| Add some idle animations | The model moves around and does thing on your desktop | TODO | Complex |  | Optional |
+| Website update | Update the website to list this feature | TODO | Simple |  | Critical |
