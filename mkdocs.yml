@@ -5,7 +5,7 @@ repo_url: https://github.com/NyarchLinux/NyarchWiki
 
 nav:
     - 'index.md'
-    - 'future_project.md'
+    - 'future_projects.md'
     - Installation:
          - 'installation.md'
          - 'nvidia.md'
