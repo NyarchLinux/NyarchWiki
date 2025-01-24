@@ -1,4 +1,4 @@
-![315949766-711f5475-93ca-4097-a960-8047acc85cc7](https://github.com/user-attachments/assets/3970cbc8-fa73-49a9-ae9f-1aa20bb91bba)# Future Projects
+# Future Projects
 This page contains future and in development projects with their details.  
 
 If you want to contribute to Nyarch Development, you can propose new projects, or contributing to the projects listed here. For contribution you can contact us on [Discord](https://discord.gg/xuw6BNXXE7) or [GitHub](https://github.com/NyarchLinux/NyarchLinux).
