@@ -8,10 +8,10 @@ If you want to contribute to Nyarch Development, you can propose new projects, o
 |---|---|---|---|---|
 | [KDE Plasma Spin](#kde-plasma-spin) | Desktop Spin | Idea | Programming, Kirigami, ISO Building |  |
 | [Hyprland Spin](#hyprland-spin)  | Desktop Spin | Idea  | Programming, gtk-layer-shell, ISO Building |   |
-| Better AI Integration  | Desktop Application | Idea | Programming, Python  | Add writing assistant, OCR etc... and integrate with Nyarch Assistant  |
+| [Better AI Integration](#better-ai-intergation)  | Desktop Application | Idea | Programming, Python  | Add writing assistant, OCR etc... and integrate with Nyarch Assistant  |
 | [Nyarch Assistant Desktop Puppet](#nyarch-assistant-desktop-puppet)  | Desktop Application | Idea | Programming, Python, GTK Layer Shell  | Acchan as a desktop pet with AI integration |
-| Nyarch Tuner  | Desktop Application | Idea | Programming, GTK  | User friendly utility to configure kernels, zram, preoload... |
-| AI Wallpaper generator  | Desktop Application | Idea | Programming, GTK  | Simple anime wallpaper generator with AI |
+| [Nyarch Tuner](#nyarch-tuner)  | Desktop Application | Idea | Programming, GTK  | User friendly utility to configure kernels, zram, preoload... |
+| [AI Wallpaper generator](#ai-wallpaper-generator)  | Desktop Application | Idea | Programming, GTK  | Simple anime wallpaper generator with AI |
 | Application Selection Calamares  | Improvement | Idea | Calamares  | Add a configuration page that makes you choose to disable/enable some Nyarch Features on Calamares installer |
 | [New Website](#new-website)  | Website | Development | HTML, CSS, JS  | New modern scrolling website for Nyarch. Currently assigned to Wawa. |
 
@@ -201,6 +201,53 @@ https://github.com/user-attachments/assets/37cee779-694f-459f-a49d-8892abc46eae
 
 #### Tasks
 TBD.
+
+### Nyarch Tuner
+#### Goals
+
+1. Make Nyarch/Arch performance tuning easier for beginners
+2. Provide easy UI to configure zram
+3. Provide easy UI to configure swapfile
+4. Provide easy UI to configure preload
+5. Provide easy UI to configure kernels
+5. Provide easy UI to configure power levels (optional)
+#### Requirements
+1. The application must not break the system (yk it would be cool if it doesn't)
+2. The application must be simple to use for users
+3. The application must explain what the technologies and the configurations do
+4. There must be e suggested configuration based on hardware resource (optional)
+5. At least the first version must be writter in GTK
+6. The application must work on Arch Linux in general (optional)
+#### Exploration
+Nothing
+#### Tasks
+TBD, the overall project is extimated to require ~80 total hours.
+
+### AI Wallpaper generator
+#### Goals
+1. Quickly generate images to use as wallpaper with AI
+2. Provide some prompts template (user choice) to generate good quality images
+3. Create a good softwware infrastructure for AI image generation
+4. Integration with Nyarch Assistant (optional)
+5. Support upscaling
+#### Requirements
+1. The application must be written with GTK toolkit
+2. The application must provide some prompts template with dropdown options in order to generate good quality images (optional)
+3. The application must support multiple image generation providers
+4. The application must support multiple image upscalers
+5. The application must detect the user resolution to find the most appropriate resolution to generate and upscale the image automatically (optional)
+6. The application must provide support for totally custom prompt generation
+7. The application must give the possibility to directly set as wallpaper or save it
+#### Tasks
+| Task | Description | Status | Complexity | Further information | Criticality |
+|---|---|---|---|---|---|
+| Design handlers for Image generation | Design common properties for image generation tools | TODO | Simple |  | Critical |
+| Design the general interface | Design the general interface of the application, offering options for prompt templates, upscaling, custom prompts etc | TODO | Complex  | | Critical |
+| Design handlers for Upscaling | Design common properties for upscaling tools | TODO | Simple |  | Critical |
+| Add image generation handlers | Add common image generation handlers f.e. OpenAI and Stablediffusion ones | TODO | Simple |  | Critical |
+| Add image upscaling | Add image upscaling tools support | TODO | Simple |  | Critical |
+| Integration with Nyarch Assistant | Allow Nyarch assistant to generate images with it | TODO | Medium |  | Optional |
+
 ### New website
 #### Goals
 
