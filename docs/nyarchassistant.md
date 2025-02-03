@@ -37,7 +37,7 @@ By default, Nyarch Assistant uses our Demo API (limited at 10req/day), that use 
 If the provider you want is not supported, you can [make your own extension](https://github.com/qwersyk/Newelle/wiki/Developing-extensions) or [check the existing extensions](https://github.com/qwersyk/Newelle/wiki/User-guide-to-Extensions#finding-extensions).
 
 - For general purposes, general knowledge, coding and role playing, `Llama3.1-70B+` models are suggested.
-- If you do more programming/IT things, `Mixtral8x22B`, `Qwen2.5`, `Qwen2.5-coder`, `claude-3.5-sonnet` models (of basically any size) are preferred.
+- If you do more programming/IT things, `deepseek-r1`, `deepseek-v3`, `Mixtral8x22B`, `Qwen2.5`, `Qwen2.5-coder`, `claude-3.5-sonnet` models (of basically any size) are preferred.
 - For roleplay only, you might like `mythomax-l2-13b`, `llama3.1-7B`, `gemma-2-9b-it` or `wizardlm-2-8x22b`.
 
 **For more information on how to setup different providers, read** [Newelle's user guide to LLMs](https://github.com/qwersyk/Newelle/wiki/User-guide-to-the-available-LLMs)
