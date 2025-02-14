@@ -9,7 +9,7 @@ If you want to contribute to Nyarch Development, you can propose new projects, o
 | [KDE Plasma Spin](#kde-plasma-spin) | Desktop Spin | Idea | Programming, Kirigami, ISO Building |  |
 | [Hyprland Spin](#hyprland-spin)  | Desktop Spin | Idea  | Programming, gtk-layer-shell, ISO Building |   |
 | [Better AI Integration](#better-ai-intergation)  | Desktop Application | Idea | Programming, Python  | Add writing assistant, OCR etc... and integrate with Nyarch Assistant  |
-| [Nyarch Assistant Desktop Puppet](#nyarch-assistant-desktop-puppet)  | Desktop Application | Idea | Programming, Python, GTK Layer Shell  | Acchan as a desktop pet with AI integration |
+| [Nyarch Assistant Desktop Puppet](#nyarch-assistant-desktop-puppet)  | Desktop Application | Development | Programming, Python, GTK Layer Shell  | Acchan as a desktop pet with AI integration |
 | [Nyarch Tuner](#nyarch-tuner)  | Desktop Application | Idea | Programming, GTK  | User friendly utility to configure kernels, zram, preoload... |
 | [AI Wallpaper generator](#ai-wallpaper-generator)  | Desktop Application | Idea | Programming, GTK  | Simple anime wallpaper generator with AI |
 | Application Selection Calamares  | Improvement | Idea | Calamares  | Add a configuration page that makes you choose to disable/enable some Nyarch Features on Calamares installer |
