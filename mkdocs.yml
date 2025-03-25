@@ -1,5 +1,4 @@
 site_name: Nyarch Linux Wiki
-theme: material
 repo_name: NyarchWiki
 repo_url: https://github.com/NyarchLinux/NyarchWiki
 
@@ -9,6 +8,7 @@ nav:
     - Installation:
          - 'installation.md'
          - 'nvidia.md'
+         - 'install_nvidia_drivers.md'
          - 'nyarcher.md'
     - 'applications.md'
     - 'nyarchassistant.md'
@@ -49,4 +49,4 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/xuw6BNXXE7
       name: Discord
-copyright: Copyright &copy; 2024 Nyarch Linux
+copyright: Copyright &copy; 2025 Nyarch Linux

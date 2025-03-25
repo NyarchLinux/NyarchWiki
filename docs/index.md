@@ -1,4 +1,5 @@
 # Nyarch Wiki
+
 The Nyarch Linux wiki is designed to be a **straightforward** and **accessible** resource for users of all skill levels, particularly those new to Nyarch Linux.
 Unlike the comprehensive [Arch Wiki](https://wiki.archlinux.org), the Nyarch Linux Wiki focuses on providing **simpler, easy-to-understand information on various topics**. Additionally, it offers Nyarch-specific **guidance and recommendations** to help you enhance your experience with Nyarch Linux.
 
@@ -7,6 +8,7 @@ Unlike the comprehensive [Arch Wiki](https://wiki.archlinux.org), the Nyarch Lin
 - Simple tutorials and suggestions for beginners
 - Simplified explainations about Linux and Arch Linux (easier than the Arch Wiki, but also provide links to it)
 - Nyarch-specific usage suggestions
+
 ## What does not go in this wiki
 
 - Server things
