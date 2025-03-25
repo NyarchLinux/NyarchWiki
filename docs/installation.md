@@ -6,6 +6,7 @@ If you still want to go on, then you can decide to install Nyarch on:
 1. [Your Computer](#installing-nyarch-on-your-computer)
 2. [Virtual Machine](#install-nyarch-on-a-virtual-machine)
 3. [On an existing Linux Distro](/nyarcher)
+
 ## Installing Nyarch on your Computer
 
 ### Prerequisites
