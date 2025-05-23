@@ -37,7 +37,7 @@ By default, Nyarch Assistant uses our Demo API (limited at 10req/day), that uses
 If the provider you want is not supported, you can [make your own extension](https://github.com/qwersyk/Newelle/wiki/Developing-extensions) or [check the existing extensions](https://github.com/qwersyk/Newelle/wiki/User-guide-to-Extensions#finding-extensions).
 
 - For general purposes, general knowledge, coding and role playing, `Llama3.1-70B+` models are suggested.
-- If you do more programming/IT things, `qwen3-8b`+, `deepseek-r1`, `deepseek-v3`, `Mixtral8x22B`, `Qwen2.5`, `Qwen2.5-coder`, `claude-3.5-sonnet` models (of basically any size) are preferred.
+- If you do more programming/IT things, `qwen3-8b`+, `deepseek-r1`, `deepseek-v3`, `Mixtral8x22B`, `claude-3.5-sonnet` models (of basically any size) are preferred.
 - For roleplay only, you might like `qwen3-4b`+, `mythomax-l2-13b`, `llama3.1-7B`, `gemma3` models or `wizardlm-2-8x22b`.
 
 **For more information on how to setup different providers, read** [Newelle's user guide to LLMs](https://github.com/qwersyk/Newelle/wiki/User-guide-to-the-available-LLMs)
@@ -47,7 +47,7 @@ With these settings, everything will be run locally and no data about you will b
 
 Since these computations require a good amount of resources, a good GPU is suggested for good performances.
 #### Local LLMs
-Two offline models providers are supported: GPT4All (or "Local Model") and Ollama. For instructions on how to setup them, read [Newelle Wiki - Local Models](https://github.com/qwersyk/Newelle/wiki/User-guide-to-the-available-LLMs#local-models-1).
+Two offline models providers are supported: GPT4All (or "Local Model") and Ollama (Suggested). For instructions on how to setup them, read [Newelle Wiki - Local Models](https://github.com/qwersyk/Newelle/wiki/User-guide-to-the-available-LLMs#local-models-1).
 **Using a model with Ollama is suggested as it has more fatures and generally better performances.**
 For suggested models, read [Suggested LLM and models](#suggested-llm-and-models)
 #### TTS
