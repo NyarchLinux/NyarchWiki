@@ -113,7 +113,7 @@ However, there are these issues:
 ##### Hyprland material you
 
 
-![](https://github.com/koeqaife/hyprland-material-you/blob/v2/assets/screenshot.png)
+![](https://github.com/koeqaife/hyprland-material-you/blob/v2/assets/screenshot.png?raw=true)
 
 [HyprYou](https://github.com/koeqaife/hyprland-material-you) is a very complete configuration that respect **R1** and doesn't have a lot of dependencies.
 ##### LinkFRG Dotfiles
