@@ -110,7 +110,7 @@ However, there are these issues:
 - Custom packages to build
 - Very likely to break over time
 
-##### Hyprland material you
+##### HyprYou
 
 
 ![](https://github.com/koeqaife/hyprland-material-you/blob/v2/assets/screenshot.png?raw=true)
