@@ -116,6 +116,7 @@ However, there are these issues:
 ![](https://github.com/koeqaife/hyprland-material-you/blob/v2/assets/screenshot.png?raw=true)
 
 [HyprYou](https://github.com/koeqaife/hyprland-material-you) is a very complete configuration that respect **R1** and doesn't have a lot of dependencies.
+Also, it is packaged without touching the user's home directory, which makes it better to implement.
 ##### LinkFRG Dotfiles
 
 ![](https://github.com/linkfrg/dotfiles/raw/main/assets/4.png)
