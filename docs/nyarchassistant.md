@@ -53,9 +53,12 @@ For suggested models, read [Suggested LLM and models](#suggested-llm-and-models)
 #### TTS
 The best supported local TTS with natural sounding voices are `Vits` and `VoiceVox`. If you have a nice Nvidia GPU (RTX Series), TTS should be almost instant. In other cases, some loading time might be required.
 ##### VoiceVox
-[VoiceVox](https://voicevox.hiroshiba.jp/) is an open source TTS engine really natural sounding for Japanese. 
+[VoiceVox](https://voicevox.hiroshiba.jp/) is an open source TTS engine really natural sounding for Japanese.
 
-Since it only supports Japanese, if you don't know Japanese, you can decide to enable translations.
+Since it only supports Japanese, if you don't know Japanese, you can decide to enable translations,enable the Translator program in Avatar and select Japanese as the translation language. 
+
+![immagine](https://imgbed.bil-misaka.eu.org/file/nyarch/1771345969461_image.png)
+
 ###### Installing and using VoiceVox
 If you have Smart prompts enabled, you can ask Arch-chan to guide you through these steps! In case you don't trust here yapping, here are the full instructions.
 
@@ -97,6 +100,10 @@ sudo docker run --rm --gpus all -p '127.0.0.1:50021:50021' voicevox/voicevox_eng
 
 **Step 4**: Configure it on Nyarch Assistant settings
 ![immagine](https://github.com/user-attachments/assets/426e73d7-b2ca-4f05-9674-fd43d06ff647)
+
+###### Effect
+
+<video src="https://imgbed.bil-misaka.eu.org/file/nyarch/1771345775402_voicevoxtest.mp4" controls=true></video>
 
 Put `http://localhost:50021` as endpoint (or the ip/port you chosen if you host it somewhere else).
 Then, close and reopen the settings to reload the voices and then choose your favourite voice.

@@ -14,20 +14,20 @@ nav:
     - 'nyarchassistant.md'
 
 theme:
-  name: material 
+  name: material
   logo: assets/nyarch-logo.png
   favicon: assets/nyarch-logo.png
+  language: zh
   features:
-    - navigation.instant
     - navigation.instant.prefetch
     - navigation.expand
-  icon: 
-    repo: fontawesome/brands/github 
+  icon:
+    repo: fontawesome/brands/github
   palette:
     - scheme: slate
       accent: pink
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to light mode
 
     # Palette toggle for dark mode
@@ -37,8 +37,42 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+plugins:
+  - search:
+      lang:
+        - en
+        - zh
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: zh
+          name: 简体中文
+          build: true
+          nav_translations:
+            Installation: 安装
+            Applications: 应用程序
+            Future Projects: 未来项目
+            Nyarch Assistant: Nyarch 助手
+            Nyarcher: Nyarcher
+            Nvidia Support: Nvidia 支持
+            Install Nvidia Drivers: 安装 Nvidia 驱动
+
 extra:
   homepage: "https://nyarchlinux.moe"
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: 简体中文
+      link: /zh/
+      lang: zh
   social:
     - icon: fontawesome/brands/telegram
       link: https://t.me/NyarchLinux
