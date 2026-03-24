@@ -6,7 +6,7 @@ If you want to contribute to Nyarch Development, you can propose new projects, o
 ## Projects Overview
 | Project | Project Type | Development Status | Required Skills | Further information |
 |---|---|---|---|---|
-| [KDE Plasma Spin](#kde-plasma-spin) | Desktop Spin | Development | Programming, Kirigami, ISO Building |  |
+| [KDE Plasma Spin](#kde-plasma-spin) | Desktop Spin | Development | Programming, Kirigami, ISO Building | Final phase |
 | [Hyprland Spin](#hyprland-spin)  | Desktop Spin | Idea  | Programming, gtk-layer-shell, ISO Building |   |
 | [Nyarch Assistant Desktop Puppet](#nyarch-assistant-desktop-puppet)  | Desktop Application | Development | Programming, Python, GTK Layer Shell  | Acchan as a desktop pet with AI integration |
 | [Nyarch Tuner](#nyarch-tuner)  | Desktop Application | Idea | Programming, GTK  | User friendly utility to configure kernels, zram, preoload... |
@@ -57,15 +57,15 @@ Because it's cool, we will also add [Geometry Change](https://store.kde.org/p/21
 | Task | Description | Status | Complexity | Further information | Criticality |
 |---|---|---|---|---|---|
 | Creating a ISO with KDE | Create a Nyarch ISO with required Plasma packages and make it bootable and installable | DONE | Simple |  | Critical |
-| Find KDE alternatives | Find KDE alternatives for some of our bloat (Komikku ...) | TODO | Simple |  | Optional |
+| Find KDE alternatives | Find KDE alternatives for some of our bloat (Komikku ...) | DONE | Simple |  | Optional |
 | Install `kde-material-you` | Install KDE Material You for theming | DONE | Simple |  | Critical |
-| KDE Dotfiles | Find and add relevant dotfiles to the distribution. | DOING | Simple |  | Critical |
-| Ensure correct GTK support and theming | Customize the dotfiles to ensure GTK support. | TODO | Simple |  | Critical |
-| Catgirl Downloader Kirigami version | Rewrite Catgirl downloader in Kirigami. | TODO | Simple |  | Critical |
-| Nyarch Wizard Kirigami version | Rewrite Nyarch Wizard in Kirigami. | TODO | Medium |  | Optional |
-| Nyarch Script Kirigami version | Rewrite Nyarch Script in Kirigami. | TODO | Medium |  | Optional |
-| Nyarch Tour Kirigami version | Rewrite Nyarch Tour in Kirigami. | TODO | Simple |  | Optional |
-| Nyarch Assistant Kirigami version | Rewrite Nyarch Assistant in Kirigami. | TODO | Complex |  | Optional |
+| KDE Dotfiles | Find and add relevant dotfiles to the distribution. | DONE | Simple |  | Critical |
+| Ensure correct GTK support and theming | Customize the dotfiles to ensure GTK support. | DONE | Simple |  | Critical |
+| Catgirl Downloader Kirigami version | Rewrite Catgirl downloader in Kirigami. | DONE | Simple |  | Critical |
+| Nyarch Wizard Kirigami version | Rewrite Nyarch Wizard in Kirigami. | DONE | Medium |  | Optional |
+| Nyarch Script Kirigami version | Rewrite Nyarch Script in Kirigami. | DONE | Medium |  | Optional |
+| Nyarch Tour Kirigami version | Rewrite Nyarch Tour in Kirigami. | DONE | Simple |  | Optional |
+| Nyarch Assistant Kirigami version | Rewrite Nyarch Assistant in Kirigami. | WONTFIX | Complex |  | Optional |
 | Website update | Update the website to support multiple spins | TODO | Medium |  | Critical |
 
 ### Hyprland spin
