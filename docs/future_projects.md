@@ -7,7 +7,7 @@ If you want to contribute to Nyarch Development, you can propose new projects, o
 | Project | Project Type | Development Status | Required Skills | Further information |
 |---|---|---|---|---|
 | [KDE Plasma Spin](#kde-plasma-spin) | Desktop Spin | Development | Programming, Kirigami, ISO Building | Final phase |
-| [Hyprland Spin](#hyprland-spin)  | Desktop Spin | Idea  | Programming, gtk-layer-shell, ISO Building |   |
+| [Hyprland Spin](#hyprland-spin)  | Desktop Spin | Idea  | Programming, gtk-layer-shell, ISO Building | planned on after KDE is finished  |
 | [Nyarch Assistant Desktop Puppet](#nyarch-assistant-desktop-puppet)  | Desktop Application | Development | Programming, Python, GTK Layer Shell  | Acchan as a desktop pet with AI integration |
 | [Nyarch Tuner](#nyarch-tuner)  | Desktop Application | Idea | Programming, GTK  | User friendly utility to configure kernels, zram, preoload... |
 | [AI Wallpaper generator](#ai-wallpaper-generator)  | Desktop Application | Idea | Programming, GTK  | Simple anime wallpaper generator with AI |
