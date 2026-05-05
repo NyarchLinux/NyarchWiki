@@ -4,7 +4,7 @@ Nyarcher is a Shell script to install [Nyarch Linux](https://github.com/NyarchLi
 ## Disclaimer
 The script aims to give the most similar experience to Nyarch Linux on any Linux distribution, without editing system files. For these reasons, read the [What you are missing section](#what-you-are-missing).
 Also, some applications, specially Nyarch Scripts, might not work correctly in non arch based distributions.
-The only opeartions that are going to edit system files, are flagged with [SYSTEM]. They are not dangerous, but you better know that they are doing it.
+The only opeartions that are going to edit system files, are flagged with [SYSTEM]. They are not dangerous, but you better know that they are doing.
 If something goes wrong, by creating a new user on your distribution, you won't be affected by the changes that the script does, excluding the changes made by part of the script flagged as [SYSTEM].
 ## Install pre-requirements
 **On any distribution, a working installation of Gnome 47 is needed**

@@ -114,7 +114,7 @@ Choose your name, and wait for the install to finish, and reboot!
 
 - Not suggested VM Softwares to install Nyarch: VirtualBox (because of the bad 3D acceleration)
 
-Nyarch makes a lot of use of animations to enhance the user experience, so **enable 3D acceleration in the VM**. Otherwise it will lag as fuck. Bro you don't want to see worst animation than Blue Lock S2, trust me.
+Nyarch makes a lot of use of animations to enhance the user experience, so **enable 3D acceleration in the VM**. Otherwise it will lag as fuck. Bro you don't want to see worse animations than Blue Lock S2, trust me.
 Create a VM with these specifications:
 
 - CPU: As much as you can/prefer

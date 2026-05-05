@@ -60,7 +60,7 @@ Since it only supports Japanese, if you don't know Japanese, you can decide to e
 ![immagine](https://imgbed.bil-misaka.eu.org/file/nyarch/1771345969461_image.png)
 
 ###### Installing and using VoiceVox
-If you have Smart prompts enabled, you can ask Arch-chan to guide you through these steps! In case you don't trust here yapping, here are the full instructions.
+If you have Smart prompts enabled, you can ask Arch-chan to guide you through these steps! In case you don't trust her yapping, here are the full instructions.
 
 **Step 1**: Install docker
 ```bash

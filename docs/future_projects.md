@@ -9,7 +9,7 @@ If you want to contribute to Nyarch Development, you can propose new projects, o
 | [KDE Plasma Spin](#kde-plasma-spin) | Desktop Spin | Development | Programming, Kirigami, ISO Building | Final phase |
 | [Hyprland Spin](#hyprland-spin)  | Desktop Spin | Idea  | Programming, gtk-layer-shell, ISO Building |   |
 | [Nyarch Assistant Desktop Puppet](#nyarch-assistant-desktop-puppet)  | Desktop Application | Development | Programming, Python, GTK Layer Shell  | Acchan as a desktop pet with AI integration |
-| [Nyarch Tuner](#nyarch-tuner)  | Desktop Application | Idea | Programming, GTK  | User friendly utility to configure kernels, zram, preoload... |
+| [Nyarch Tuner](#nyarch-tuner)  | Desktop Application | Idea | Programming, GTK  | User friendly utility to configure kernels, zram, preload... |
 | [AI Wallpaper generator](#ai-wallpaper-generator)  | Desktop Application | Idea | Programming, GTK  | Simple anime wallpaper generator with AI |
 | Application Selection Calamares  | Improvement | Idea | Calamares  | Add a configuration page that makes you choose to disable/enable some Nyarch Features on Calamares installer |
 | [New Website](#new-website)  | Website | Development | HTML, CSS, JS  | New modern scrolling website for Nyarch. Currently assigned to Wawa. |
@@ -227,7 +227,7 @@ TBD.
 #### Exploration
 Nothing
 #### Tasks
-TBD, the overall project is extimated to require ~80 total hours.
+TBD, the overall project is estimated to require ~80 total hours.
 
 ### AI Wallpaper generator
 #### Goals
