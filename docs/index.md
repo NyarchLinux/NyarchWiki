@@ -6,14 +6,14 @@ Unlike the comprehensive [Arch Wiki](https://wiki.archlinux.org), the Nyarch Lin
 ## What goes in this wiki
 
 - Simple tutorials and suggestions for beginners
-- Simplified explainations about Linux and Arch Linux (easier than the Arch Wiki, but also provide links to it)
+- Simplified explanations about Linux and Arch Linux (easier than the Arch Wiki, but also provide links to it)
 - Nyarch-specific usage suggestions
 
 ## What does not go in this wiki
 
 - Server things
 - Advanced or dangerous topics
-- Detailed techincal explainations 
+- Detailed technical explanations 
 
 ## Contributing to the Wiki
 
