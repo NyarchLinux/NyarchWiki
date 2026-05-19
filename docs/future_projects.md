@@ -66,7 +66,7 @@ Because it's cool, we will also add [Geometry Change](https://store.kde.org/p/21
 | Nyarch Script Kirigami version | Rewrite Nyarch Script in Kirigami. | DONE | Medium |  | Optional |
 | Nyarch Tour Kirigami version | Rewrite Nyarch Tour in Kirigami. | DONE | Simple |  | Optional |
 | Nyarch Assistant Kirigami version | Rewrite Nyarch Assistant in Kirigami. | WONTFIX | Complex |  | Optional |
-| Website update | Update the website to support multiple spins | TODO | Medium |  | Critical |
+| Website update | Update the website to support multiple spins | DONE | Medium |  | Critical |
 
 ### Hyprland spin
 #### Goals
@@ -132,8 +132,11 @@ If anyone wants to do it and can do it well I'm not stopping him.
 | Task | Description | Status | Complexity | Further information | Criticality |
 |---|---|---|---|---|---|
 | Creating a ISO with Hyprland | Create a Nyarch ISO with required Hyprland packages and make it bootable and installable | TODO | Simple |  | Critical |
+| Recode apps | Recoding the Nyarch apps to work with Hyprland | TODO | Medium | | Optional |
+| Adding plymouth themes | Adding the plymouth themes to boot | TODO | Medium | | Critical |
 | Do everything else | Idk decision still have to be made lol | TODO | Complex |  | Critical |
 | Website update | Update the website to support multiple spins | TODO | Complex |  | Critical |
+For more information on what is needed, go look at [Nyarch Hyprland's readme](https://github.com/TotallyDIO/NyarchHyprland/blob/main/README.md]
 
 ### Nyarch Assistant Desktop Puppet
 #### Goals
