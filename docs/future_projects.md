@@ -131,7 +131,7 @@ If anyone wants to do it and can do it well I'm not stopping him.
 
 | Task | Description | Status | Complexity | Further information | Criticality |
 |---|---|---|---|---|---|
-| Creating a ISO with Hyprland | Create a Nyarch ISO with required Hyprland packages and make it bootable and installable | TODO | Simple |  | Critical |
+| Creating a ISO with Hyprland | Create a Nyarch ISO with required Hyprland packages and make it bootable and installable | Working | Simple |  | Critical |
 | Recode apps | Recoding the Nyarch apps to work with Hyprland | TODO | Medium | | Optional |
 | Adding plymouth themes | Adding the plymouth themes to boot | TODO | Medium | | Critical |
 | Do everything else | Idk decision still have to be made lol | TODO | Complex |  | Critical |
