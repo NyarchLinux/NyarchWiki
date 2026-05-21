@@ -116,11 +116,6 @@ However, there are these issues:
 
 [HyprYou](https://github.com/koeqaife/hyprland-material-you) is a very complete configuration that respect **R1** and doesn't have a lot of dependencies.
 Also, it is packaged without touching the user's home directory, which makes it better to implement.
-##### LinkFRG Dotfiles
-
-![](https://github.com/linkfrg/dotfiles/raw/main/assets/4.png)
-
-[linkfrg dotfiles](https://github.com/linkfrg/dotfiles/) are a very good options. Unlike the previous, it uses Ignis and not some old version of AGS, thus making it easier to maintain, more powerful, and easy to extend. Also, dependencies aren't many. It does lack some features compared to those above for now.
 
 ##### Custom dotfiles
 Most complex option. This requires basically programming a DE. gtk_layer_shell might be a good friend for this. 
