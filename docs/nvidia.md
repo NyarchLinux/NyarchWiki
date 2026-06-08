@@ -1,5 +1,5 @@
 # Nvidia Support
-Starting from version `24.11.1`, Nayrch Linux supports again a Nyarch version with **nvidia proprietary drivers preinstalled**. 
+Starting from version `24.11.1`, Nyarch Linux supports again a Nyarch version with **nvidia proprietary drivers preinstalled**. 
 
 **Note:** Nvidia version does not support RTX5000 GPUs. You will have to install the `nvidia-open` driver [manually](install_nvidia_drivers.md) on the Normal ISO. 
 
