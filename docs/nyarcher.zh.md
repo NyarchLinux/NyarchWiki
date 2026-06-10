@@ -47,7 +47,7 @@ chmod +x nyarcher.sh
 ```
 脚本会询问你是否要应用某些设置，**强烈建议对所有选项都说 yes**，以获得稳定的猫猫体验喵～。
 
-## What YOu Are Missing
+## What You Are Missing
  你错过了什么喵
 通过运行此脚本，你不会获得完整的 Nyarch 体验，以下是脚本中缺少但发行版中存在的功能。
 

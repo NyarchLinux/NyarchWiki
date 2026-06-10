@@ -57,20 +57,16 @@
 | 任务 | 描述 | 状态 | 复杂度 | 更多信息 | 关键性 |
 |---|---|---|---|---|---|
 | 创建带 KDE 的 ISO | 创建一个包含必要 Plasma 软件包的 Nyarch ISO，并使其可启动和可安装 | 已完成 | 简单 |  | 关键 |
-| 寻找KDE替代品 | 	
-为部分臃肿软件寻找KDE替代方案（例如Komikku...） | 已完成 | 简单 |  | 可选 |
+| 寻找KDE替代品 | 为部分臃肿软件寻找KDE替代方案（例如Komikku...） | 已完成 | 简单 |  | 可选 |
 | 安装 `kde-material-you` | 安装KDE Material You用于主题化 | 已完成 | 简单 |  | 关键 |
 | KDE配置文件 | 寻找并添加相关的配置文件到发行版中 | 已完成 | 简单 |  | 关键 |
 | 确保正确的GTK支持和主题化 | 自定义配置文件以确保GTK支持 | 已完成 | 简单 |  | 关键 |
-| Catgirl下载器的Kirigami版本 | 	
-使用Kirigami重写Catgirl下载器 | 已完成 | 简单 |  | 关键 |
-| Nyarch向导Kirigami版本 | 	
-使用Kirigami重写Nyarch向导 | 已完成 | 中等 |  | 可选 |
+| Catgirl下载器的Kirigami版本 | 使用Kirigami重写Catgirl下载器 | 已完成 | 简单 |  | 关键 |
+| Nyarch向导Kirigami版本 | 	使用Kirigami重写Nyarch向导 | 已完成 | 中等 |  | 可选 |
 | Nyarch脚本Kirigami版本 | 使用Kirigami重写Nyarch脚本 | 已完成 | 中等 |  | 可选 |
 | Nyarch导览Kirigami版本 | 使用Kirigami重写Nyarch导览 | 已完成 | 简单 |  | 可选 |
 | Nyarch助手Kirigami版本 | 使用Kirigami重写Nyarch助手 | 不予修复 | 复杂 |  | 可选 |
-| 主页更新 | 	
-更新网站以支持多个分支版本 | 已完成 | 中等 |  | 关键 |
+| 主页更新 | 更新网站以支持多个分支版本 | 已完成 | 中等 |  | 关键 |
 
 
 ### Hyprland spin
