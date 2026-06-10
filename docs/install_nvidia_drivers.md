@@ -1,6 +1,6 @@
 # Install Nvidia Drivers
 
-Starting from version `24.11.1`, Nayrch Linux supports again a Nyarch version with **nvidia proprietary drivers preinstalled**.
+Starting from version `24.11.1`, Nyarch Linux supports again a Nyarch version with **nvidia proprietary drivers preinstalled**.
 
 However, if you have not installed the Nvidia version, or you have a not supported Nvidia GPU, you might have to install the drivers manually, and this guide is for you.
 
