@@ -7,7 +7,8 @@
 2. [虚拟机](#install-nyarch-on-a-virtual-machine)
 3. [在现有的 Linux 发行版上](/nyarcher)
 
-## 在你的电脑上安装 Nyarch 喵～
+## Installing Nyarch on your Computer
+  在你的电脑上安装 Nyarch 喵～
 
 ### 先决条件
 - 一台符合[建议配置](https://nyarchlinux.moe/#requirements )的猫猫电脑喵～
