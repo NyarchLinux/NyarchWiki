@@ -131,7 +131,7 @@ If anyone wants to do it and can do it well I'm not stopping him.
 | Do everything else | Idk decision still have to be made lol | TODO | Complex |  | Critical |
 | Website update | Update the website to support multiple spins | TODO | Complex |  | Critical |
 
-For more information on what is needed, go look at [Nyarch Hyprland's readme](https://github.com/TotallyDIO/NyarchHyprland/blob/main/README.md)
+
 
 ### Nyarch Assistant Desktop Puppet
 #### Goals
