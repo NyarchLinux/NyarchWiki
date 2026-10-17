@@ -266,7 +266,7 @@ TBD, the overall project is estimated to require ~80 total hours.
 4. The website must accomodate Wiki, Source code and Donations link 
 
 #### Exploration
-The website is being developed as a scorlling website. 
+The website is being developed as a scrolling website. 
 
 ![image](https://github.com/user-attachments/assets/e9cb45b2-f469-4969-ad6e-ef247f622ec5)
 
