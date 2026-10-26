@@ -53,7 +53,7 @@ Nyarch Assistant を使用するモデルやプロバイダーは、自由に選
 #### ローカルLLM
 2つのオフラインモデルプロバイダーがサポートされています：GPT4All（または「ローカルモデル」）とOllama（推奨）。設定方法の手順については、[Newelle Wiki - Local Models](https://github.com/qwersyk/Newelle/wiki/User-guide-to-the-available-LLMs#local-models-1)をご覧ください。
 
-**Ollama を使用したモデルを使用することが推奨されます。これは、より多くのファチュアがあり、一般的に性能が優れているからです。**
+**Ollama を使用したモデルを使用することが推奨されます。これは、より多くの機能があり、一般的に性能が優れているからです。**
 
 提案されたモデルについては、[推奨されるLLMとモデル](#推奨されるLLMとモデル) をご覧ください。
 #### TTS
