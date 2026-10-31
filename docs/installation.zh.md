@@ -33,7 +33,7 @@
 6. 点击"刷写"并等待完成。 
 ![immagine](https://github.com/user-attachments/assets/8a0f4a68-c36a-4f8f-968d-0b2c59d442dd )
 
-### 使用Venoy ###
+### 使用Ventoy ###
 
 按照Ventoy官方制作好Ventoy启动盘，将Nyarch的镜像放置到你的移动猫盘，随后在启动的Ventoy中选择ISO镜像喵～
 
