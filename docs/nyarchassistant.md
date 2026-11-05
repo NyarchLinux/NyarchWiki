@@ -48,7 +48,7 @@ With these settings, everything will be run locally and no data about you will b
 Since these computations require a good amount of resources, a good GPU is suggested for good performances.
 #### Local LLMs
 Two offline models providers are supported: GPT4All (or "Local Model") and Ollama (Suggested). For instructions on how to setup them, read [Newelle Wiki - Local Models](https://github.com/qwersyk/Newelle/wiki/User-guide-to-the-available-LLMs#local-models-1).
-**Using a model with Ollama is suggested as it has more fatures and generally better performances.**
+**Using a model with Ollama is suggested as it has more features and generally better performances.**
 For suggested models, read [Suggested LLM and models](#suggested-llm-and-models)
 #### TTS
 The best supported local TTS with natural sounding voices are `Vits` and `VoiceVox`. If you have a nice Nvidia GPU (RTX Series), TTS should be almost instant. In other cases, some loading time might be required.
