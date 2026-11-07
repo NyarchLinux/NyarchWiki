@@ -42,7 +42,7 @@
 
     ![图片](https://github.com/user-attachments/assets/8a0f4a68-c36a-4f8f-968d-0b2c59d442dd)
 
-### 使用 Ventoy
+### 使用Ventoy ###
 
 按照 Ventoy 官方说明制作好 Ventoy 启动盘，将 Nyarch 镜像放入你的移动猫盘，随后在 Ventoy 启动菜单中选择 ISO 镜像喵～
 
@@ -143,4 +143,5 @@ Nyarch 大量使用动画，让你的猫猫电脑用起来更顺畅，所以请�
 - 存储：至少 30GB，用于安装操作系统
 - UEFI/BIOS 均受支持
 
-创建并启动虚拟机后，请转到 [Nyarch Live 环境](#nyarch-live-环境) 喵～
+创建并启动虚拟机后，跳到[Nyarch Live 环境](#nyarch-live-environment) 喵～
+
