@@ -32,13 +32,13 @@ Newelle and Nyarch Linux will **always** be up to date with each other and Newel
 
 ## Suggested LLM and models
 You are totally free to choose what models and what providers to use Nyarch Assistant with.
-By default, Nyarch Assistant uses our Demo API (limited at 10req/day), that uses `gemini-flash-2.0` for anything else. These API are **just to showcase Nyarch Assistant**, you are supposed to **use another provider with API Key** or use a local model with **Ollama** or our builtin loader. 
+By default, Nyarch Assistant uses our Demo API (limited at 10req/day), that uses random free models. These API are **just to showcase Nyarch Assistant**, you are supposed to **use another provider with API Key** or use a local model. 
 
 If the provider you want is not supported, you can [make your own extension](https://github.com/qwersyk/Newelle/wiki/Developing-extensions) or [check the existing extensions](https://github.com/qwersyk/Newelle/wiki/User-guide-to-Extensions#finding-extensions).
 
-- For general purposes, general knowledge, coding and role playing, `Llama3.1-70B+` models are suggested.
-- If you do more programming/IT things, `qwen3-8b`+, `deepseek-r1`, `deepseek-v3`, `Mixtral8x22B`, `claude-3.5-sonnet` models (of basically any size) are preferred.
-- For roleplay only, you might like `qwen3-4b`+, `mythomax-l2-13b`, `llama3.1-7B`, `gemma3` models or `wizardlm-2-8x22b`.
+- For general purposes, general knowledge, coding and role playing, `gemma 4 12B+` models are suggested. You might have to disable some tools to use smaller models.
+- If you do more programming/IT things, Qwen/GLM or Deepseek models are preferred. (take the right size considering your hardware or cost)
+- For roleplay only, you might like `qwen3.5` models, `gemma4` models or `glm` models.
 
 **For more information on how to setup different providers, read** [Newelle's user guide to LLMs](https://github.com/qwersyk/Newelle/wiki/User-guide-to-the-available-LLMs)
 ## Nyarch Assistant settings suggestions
@@ -47,8 +47,7 @@ With these settings, everything will be run locally and no data about you will b
 
 Since these computations require a good amount of resources, a good GPU is suggested for good performances.
 #### Local LLMs
-Two offline models providers are supported: GPT4All (or "Local Model") and Ollama (Suggested). For instructions on how to setup them, read [Newelle Wiki - Local Models](https://github.com/qwersyk/Newelle/wiki/User-guide-to-the-available-LLMs#local-models-1).
-**Using a model with Ollama is suggested as it has more features and generally better performances.**
+Two offline models providers are supported: "Local Model" (using llama.cpp) and Ollama. For instructions on how to setup them, read [Newelle Wiki - Local Models](https://github.com/qwersyk/Newelle/wiki/User-guide-to-the-available-LLMs#local-models-1).
 For suggested models, read [Suggested LLM and models](#suggested-llm-and-models)
 #### TTS
 The best supported local TTS with natural sounding voices are `Vits` and `VoiceVox`. If you have a nice Nvidia GPU (RTX Series), TTS should be almost instant. In other cases, some loading time might be required.
