@@ -13,6 +13,13 @@ nav:
     - 'applications.md'
     - 'nyarch_applications.md'
     - 'nyarchassistant.md'
+    - 'run_games.md'
+
+markdown_extensions:
+  - toc:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
 
 theme:
   name: material
@@ -43,6 +50,7 @@ plugins:
       lang:
         - en
         - zh
+        - ja
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
@@ -64,6 +72,17 @@ plugins:
             Nyarcher: Nyarcher
             Nvidia Support: Nvidia 支持
             Install Nvidia Drivers: 安装 Nvidia 驱动
+        - locale: ja
+          name: 日本語
+          build: true
+          nav_translations:
+            Installation: インストール
+            Applications: アプリケーション
+            Future Projects: 今後のプロジェクト
+            Nyarch Assistant: Nyarch Assistant
+            Nyarcher: Nyarcher
+            Nvidia Support: Nvidia サポート
+            Install Nvidia Drivers: Nvidia ドライバーのインストール
 
 extra:
   homepage: "https://nyarchlinux.moe"
@@ -74,6 +93,9 @@ extra:
     - name: 简体中文
       link: /zh/
       lang: zh
+    - name: 日本語
+      link: /ja/
+      lang: ja
   social:
     - icon: fontawesome/brands/telegram
       link: https://t.me/NyarchLinux
