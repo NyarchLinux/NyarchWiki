@@ -4,40 +4,43 @@
 如果您想为 Nyarch 开发做出贡献，您可以提出新项目，或为此处列出的项目做出贡献。要做出贡献，您可以在 [Discord](https://discord.gg/xuw6BNXXE7) 或 [GitHub](https://github.com/NyarchLinux/NyarchLinux) 上联系我们喵～。
 
 ## 项目概览
+
 | 项目 | 项目类型 | 开发状态 | 所需技能 | 更多信息 |
 |---|---|---|---|---|
-| [KDE Plasma Spin](#kde-plasma-spin) | 桌面 Spin | 开发中 | 编程、Kirigami、ISO 构建 | 已完成、已发布 |
-| [Hyprland Spin](#hyprland-spin)  | 桌面 Spin | 思考中  | 编程、gtk-layer-shell、ISO 构建 | 初始阶段 |
-| [Nyarch Assistant 桌面宠物](#nyarch-assistant-desktop-puppet)  | 桌面应用程序 | 开发中 | 编程、Python、GTK Layer Shell  | Acchan 作为桌面宠物，集成 AI |
-| [Nyarch Tuner](#nyarch-tuner)  | 桌面应用程序 | 思考中 | 编程、GTK  | 用户友好的实用程序，用于配置内核、zram、预加载... |
-| [AI 壁纸生成器](#ai-wallpaper-generator)  | 桌面应用程序 | 思考中 | 编程、GTK  | 使用 AI 的简单动漫壁纸生成器 |
-| 应用程序选择 Calamares  | 改进 | 思考中 | Calamares  | 添加配置页面，让您选择在 Calamares 安装程序上禁用/启用某些 Nyarch 功能 |
-| [新主页](#new-website)  | 网站 | 开发中 | HTML、CSS、JS  | Nyarch 的新现代滚动网站。目前分配给 Wawa |
-| [更好的 AI 集成](#better-ai-intergation)  | 桌面应用程序 | 思考中（已拒绝） | 编程、Python  | 添加写作助手、OCR 等...并与 Nyarch Assistant 集成  |
+| [KDE Plasma Spin](#kde-plasma-spin) | 桌面 Spin | 开发中 | 编程、Kirigami、ISO 构建 | 已完成并发布 |
+| [Hyprland Spin](#hyprland-spin) | 桌面 Spin | 构思中 | 编程、gtk-layer-shell、ISO 构建 | 初始阶段 |
+| [Nyarch Assistant 桌面宠物](#nyarch-assistant-desktop-puppet) | 桌面应用 | 开发中 | 编程、Python、GTK Layer Shell | Acchan 作为桌面宠物，并集成 AI |
+| [Nyarch Tuner](#nyarch-tuner) | 桌面应用 | 构思中 | 编程、GTK | 用户友好的实用工具，用于配置内核、zram、预加载等 |
+| [AI 壁纸生成器](#ai-wallpaper-generator) | 桌面应用 | 构思中 | 编程、GTK | 基于 AI 的简易动漫壁纸生成器 |
+| Calamares 应用选择 | 改进 | 构思中 | Calamares | 添加配置页面，让您可在 Calamares 安装程序中选择启用/禁用某些 Nyarch 功能 |
+| [新主页](#new-website) | 网站 | 开发中 | HTML、CSS、JS | Nyarch 的全新现代滚动式网站。目前分配给 Wawa |
+| [更好的 AI 集成](#better-ai-intergation) | 桌面应用 | 构思中（已拒绝） | 编程、Python | 添加写作助手、OCR 等功能，并与 Nyarch Assistant 集成 |
 
 ## 项目描述
-在本节中，您可以找到有关项目的一些探索以及可能加速开发的软件、库等。
 
-对于每个项目，列出了以下内容：
+在本节中，您可以了解一些项目探索，以及可能正在开发的软件、库等。
 
-- **目标**：项目想要实现的目标
-- **要求**：项目必须具备才能发布的要求。标注 `(次要)` 的要求可以在发布后通过更新实现。
-- **探索**：可能加速开发的软件、实验...
-- **任务**：创建项目所需的任务
+对于每个项目，列出以下内容：
+
+- **目标**：项目希望实现的目标
+- **要求**：项目发布前必须具备的条件。标注为 `(次要)` 的要求可在发布后通过更新实现。
+- **探索**：可能加速开发的软件、实验等……
+- **任务**：创建项目所需完成的任务
 
 ### KDE Plasma Spin
+
 #### 目标
 
-1. 提供仍然遵循 Nyarch 原则的新桌面 spin
-2. 使 Nyarch 成为那些讨厌 Gnome 的人的可考虑发行版
-3. 借助 KDE 的自定义功能，覆盖更广泛的桌面偏好
-4. 将 Nyarch 应用程序转换为 Kirigami 以保持一致性喵～
+1. 提供遵循 Nyarch 原则的新桌面 Spin
+2. 使 Nyarch 成为讨厌 GNOME 的用户也会考虑的发行版
+3. 借助 KDE 的自定义能力，满足更广泛的桌面偏好
+4. 将 Nyarch 应用迁移到 Kirigami，以保持一致性喵～
+
 #### 要求
 
 1. 必须遵循 Material UwU 原则
-2. Nyarch 额外应用程序应该在 KDE 版本中感觉连贯，可能用 Kirigami 重写
-3. 发行版必须具有桌面使用的所有重要 KDE 软件包，但不要太多臃肿喵～
-
+2. Nyarch 的额外应用应在 KDE 版本中保持整体连贯，可能需要用 Kirigami 重写
+3. 发行版必须包含桌面使用所需的全部重要 KDE 软件包，但不应过于臃肿
 #### 探索
 
 **R1** 可以通过 [KDE Material You colors](https://github.com/luisbocanegra/kde-material-you-colors) 和 [Adwaita Material You](https://github.com/FrancescoCaracciolo/adwaita-material-you/) 用于 GTK 应用程序主题来实现。
@@ -50,41 +53,41 @@
 
 虽然 GTK 应用程序和 KDE 应用程序仍然不完全连贯，但是它们不会感觉格格不入。可以发布一个带有 GTK 应用的早期版本。
 
-因为很酷，我们还将添加 [Geometry Change](https://store.kde.org/p/2136283/)喵～
+因为很酷，我们还将添加 [Geometry Change](https://store.kde.org/p/2136283/) 。
 
-#### Tasks
+#### 任务
 
 | 任务 | 描述 | 状态 | 复杂度 | 更多信息 | 关键性 |
 |---|---|---|---|---|---|
-| 创建带 KDE 的 ISO | 创建一个包含必要 Plasma 软件包的 Nyarch ISO，并使其可启动和可安装 | 已完成 | 简单 |  | 关键 |
-| 寻找KDE替代品 | 为部分臃肿软件寻找KDE替代方案（例如Komikku...） | 已完成 | 简单 |  | 可选 |
-| 安装 `kde-material-you` | 安装KDE Material You用于主题化 | 已完成 | 简单 |  | 关键 |
-| KDE配置文件 | 寻找并添加相关的配置文件到发行版中 | 已完成 | 简单 |  | 关键 |
-| 确保正确的GTK支持和主题化 | 自定义配置文件以确保GTK支持 | 已完成 | 简单 |  | 关键 |
-| Catgirl下载器的Kirigami版本 | 使用Kirigami重写Catgirl下载器 | 已完成 | 简单 |  | 关键 |
-| Nyarch向导Kirigami版本 | 	使用Kirigami重写Nyarch向导 | 已完成 | 中等 |  | 可选 |
-| Nyarch脚本Kirigami版本 | 使用Kirigami重写Nyarch脚本 | 已完成 | 中等 |  | 可选 |
-| Nyarch导览Kirigami版本 | 使用Kirigami重写Nyarch导览 | 已完成 | 简单 |  | 可选 |
-| Nyarch助手Kirigami版本 | 使用Kirigami重写Nyarch助手 | 不予修复 | 复杂 |  | 可选 |
-| 主页更新 | 更新网站以支持多个分支版本 | 已完成 | 中等 |  | 关键 |
+| 创建带 KDE 的 ISO | 创建一个包含必要 Plasma 软件包的 Nyarch ISO，并使其可启动、可安装 | 已完成 | 简单 |  | 关键 |
+| 寻找 KDE 替代品 | 为部分臃肿软件寻找 KDE 替代方案（例如 Komikku 等） | 已完成 | 简单 |  | 可选 |
+| 安装 `kde-material-you` | 安装 KDE Material You，用于主题定制 | 已完成 | 简单 |  | 关键 |
+| KDE 配置文件 | 寻找相关配置文件并添加到发行版中 | 已完成 | 简单 |  | 关键 |
+| 确保 GTK 支持与主题化配置正确 | 自定义配置文件，以确保 GTK 支持与主题化正常 | 已完成 | 简单 |  | 关键 |
+| Catgirl 下载器的 Kirigami 版本 | 使用 Kirigami 重写 Catgirl 下载器 | 已完成 | 简单 |  | 关键 |
+| Nyarch 向导 Kirigami 版本 | 使用 Kirigami 重写 Nyarch 向导 | 已完成 | 中等 |  | 可选 |
+| Nyarch 脚本 Kirigami 版本 | 使用 Kirigami 重写 Nyarch 脚本 | 已完成 | 中等 |  | 可选 |
+| Nyarch 导览 Kirigami 版本 | 使用 Kirigami 重写 Nyarch 导览 | 已完成 | 简单 |  | 可选 |
+| Nyarch 助手 Kirigami 版本 | 使用 Kirigami 重写 Nyarch 助手 | 不予修复 | 复杂 |  | 可选 |
+| 主页更新 | 更新网站，以支持多个分支版本 | 已完成 | 中等 |  | 关键 |
 
+### Hyprland Spin
 
-### Hyprland spin
 #### 目标
 
-1. 提供仍然遵循 Nyarch 原则的新桌面 spin
-2. 使 Nyarch 成为喜欢平铺 WM 的用户的可考虑发行版
+1. 提供一个遵循 Nyarch 原则的新桌面 Spin
+2. 使 Nyarch 成为喜欢平铺式窗口管理器（WM）的用户也会考虑的发行版
 3. Hyprland 非常酷，所以 Nyarch 的版本也要很酷喵～
-4. 提供具有更酷动画和视觉效果的 Nyarch Spin
-5. 更深入集成的 weeb 软件
+4. 提供一个动画和视觉效果更酷的 Nyarch Spin
+5. 更深入地集成御宅系软件
 
 #### 要求
 
 1. 必须遵循 Material UwU 原则
-2. 它必须足够稳定，不会太多破坏
-3. 为不太高级的用户提供布局切换器（可选）
-4. 对不太高级的用户来说必须简单（可选）
-5. 查找或创建合适的 dotfiles
+2. 必须足够稳定，不能频繁出问题
+3. 为非高级用户提供布局切换器（可选）
+4. 对非高级用户而言必须简单易用（可选）
+5. 寻找或创建合适的 dotfiles
 
 #### 探索
 
@@ -97,41 +100,41 @@
 ![315949766-711f5475-93ca-4097-a960-8047acc85cc7](https://github.com/user-attachments/assets/f3c3c6de-d0f3-443e-a846-df7cd46f9de3 )
 
 
-[end-4's dots-hyprland](https://github.com/end-4/dots-hyprland ) 目前有几个备选的 Hyprland 配置方案，各有特点：
+[end-4's dots-hyprland](https://github.com/end-4/dots-hyprland) 目前有几个备选的 Hyprland 配置方案，各有特点：
 
-- Material You 主题风格 (**R1**)
+- Material You 主题风格（R1）
 - 外观精美
 - 功能丰富
-- weeb 元素
-- 集成 AI 聊天
+- 御宅元素
+- 集成 AI 聊天功能
 
 然而，存在以下问题：
 
 - 依赖项众多
 - 需要构建自定义软件包
-- 非常容易随时间出现问题
+- 随着时间推移很容易出现问题
 
 ##### HyprYou
 
+![](https://github.com/koeqaife/hyprland-material-you/blob/v2/assets/screenshot.png?raw=true)
 
-![](https://github.com/koeqaife/hyprland-material-you/blob/v2/assets/screenshot.png?raw=true )
-
-[HyprYou](https://github.com/koeqaife/hyprland-material-you ) 是一个非常完整的配置，遵循 **R1** 原则且依赖项不多。
-此外，它在不触及用户主目录的情况下进行打包，这使得它更易于实现。
+[HyprYou](https://github.com/koeqaife/hyprland-material-you) 是一个相当完整的配置，遵循 **R1** 原则，且依赖项不多。
+此外，它在打包时不会改动用户主目录，因此更易于部署。
 
 ##### Custom dotfiles
-最复杂的选项。这基本上相当于编程开发一个桌面环境。`gtk_layer_shell` 可能会是个好帮手。
 
-如果有猫猫想做并且能做好，我会很高兴的喵～
+这是最复杂的选项，基本上相当于从零开发一个桌面环境。`gtk-layer-shell` 可能会很有帮助。
 
-#### Tasks
+如果有猫猫愿意做并且能做好，我会很高兴的喵～
+
+#### 任务
 
 | 任务 | 描述 | 状态 | 复杂度 | 更多信息 | 关键程度 |
 |---|---|---|---|---|---|
-| 创建 Hyprland ISO | 创建包含必要 Hyprland 软件包的 Nyarch ISO，并使其可启动和安装 | 已完成 | 简单 |  | 关键 |
-| 添加 plymouth 主题 | 使用 plymouth 主题来启动 | 学习中 | 中等 |  | 关键 |
-| 完成其他所有工作 | 其他各种没完成的事情喵～ | 待办 | 复杂 |  | 关键 |
-| 网站更新 | 更新网站以支持多个衍生版本 | 待办 | 复杂 |  | 关键 |
+| 创建 Hyprland ISO | 创建一个包含必要 Hyprland 软件包的 Nyarch ISO，并使其可启动、可安装 | 已完成 | 简单 |  | 关键 |
+| 添加 Plymouth 主题 | 使用 Plymouth 主题定制启动画面 | 学习中 | 中等 |  | 关键 |
+| 完成其他所有工作 | 其他各种尚未完成的事项喵～ | 待办 | 复杂 |  | 关键 |
+| 网站更新 | 更新网站，以支持多个衍生版本 | 待办 | 复杂 |  | 关键 |
 
 更多所需信息，请访问 [Nyarch Hyprland's readme](https://github.com/TotallyDIO/NyarchHyprland/blob/main/README.md)
 
@@ -151,13 +154,13 @@
 4. 模型眼睛跟随鼠标移动
 5. 可以轻松调整模型所在的图层
 6. 与 Nyarch 桌面衍生版本兼容
-7. 可以轻松地在 Nyarch 之外运行
+7. 可以轻松地在 Nyarch 之外的发行版运行
 #### 探索
 
 已使用 `gtk_layer_shell` 编写了少量代码来验证这是否可行。
 结果如下：
 
-<video src="https://github.com/user-attachments/assets/16018382-5134-45c7-9c64-02f4922dc152 " controls=true></video>
+<video src="https://github.com/user-attachments/assets/16018382-5134-45c7-9c64-02f4922dc152" controls=true></video>
 
 
 这使用 `gtk_layer_shell` 显示一个带有模型的透明 webview。之后，将点击区域调整为模型的位置和大小。
@@ -203,7 +206,7 @@ GTK Layer shell 目前**不支持 Gnome**，但很可能可以通过扩展用几
 ##### 写作助手
 我们可以实现一个写作助手来简化摘要、重写和类似任务。
 
-<video src="https://github.com/user-attachments/assets/37cee779-694f-459f-a49d-8892abc46eae " controls=true></video>
+<video src="https://github.com/user-attachments/assets/37cee779-694f-459f-a49d-8892abc46eae" controls=true></video>
 
 **注意**：延迟是由录制造成的
 

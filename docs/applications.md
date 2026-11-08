@@ -6,7 +6,7 @@ This page explains the differences between package formats and how to install an
 Supported package formats:
 
 1. [Arch Linux Packages](#arch-linux-packages) (pacman, .tar.zst)
-2. [Flatpaks](#flatpaks) (Store, .flatpakref, .flatpak)
+2. [Flatpaks](#flatpak) (Store, .flatpakref, .flatpak)
 3. [AppImages](#appimages) (.appimage)
 4. [Arch User Repository](#arch-user-repository) (yay & paru)
 
@@ -17,7 +17,7 @@ On Arch Linux, the package manager is `pacman`.
 
 Due to various reasons, pacman is supposed to be used only via terminal and with admin privileges.
 
-Here is some basic usage for `pacman`. If you want more detailed instructions, check [pacman on the Arch Wiki](https://wiki.archlinux.org/title/Pacman )
+Here is some basic usage for `pacman`. If you want more detailed instructions, check [Pacman on the Arch Wiki](https://wiki.archlinux.org/title/Pacman )
 
 ### How to install a package
 ```bash
@@ -44,12 +44,14 @@ sudo pacman -Syu
 sudo pacman -Ss package
 ```
 
-## Flatpaks
+## Flatpak
+
 Flatpak is a special packaging format that allows you to install applications in a **sandboxed** environment.
 
 This means you can easily manage what permissions an application has, like you do on smartphones.
 
 Flatpaks have some pros and cons:
+
 - Pros:
     - They work on *every* Linux distribution
     - You can control their permissions
@@ -96,7 +98,9 @@ You can manage flatpak permissions using Flatseal.
 
 
 ## Appimages
+
 **Appimages** are a special format that can be run on every Linux distribution.
+
 - Pros:
     - They work on *every* Linux distribution
 - Cons:
@@ -113,15 +117,16 @@ GearLever is a simple software that helps you install and uninstall appimages.
 You can choose to run the appimage once without installing or add it to the app menu.
 
 #### Running appimages from command line
+
 You can also straight up run an appimage from the command line by:
+
 1. Giving it the permission to be executed
-```bash
-chmod +x application.appimage
-```
+
+        chmod +x application.appimage
+
 2. Running it
-```bash
-./application.appimage
-```
+
+        ./application.appimage
 
 ## Arch User Repository
 The [AUR](https://aur.archlinux.org/ ) (Arch User Repository) is a big community-driven store for packages that aren't officially supported by Arch Linux. **If an application exists, it's very likely that you will find it in the AUR.**
@@ -144,7 +149,7 @@ For example,
 yay -S zen-browser-bin
 ```
 
-##### Updating packages
+#### Updating packages
 ```bash
 yay
 ```
@@ -161,7 +166,7 @@ cd paru
 makepkg -si
 ```
 
-##### Installing packages with paru
+#### Installing packages with paru
 `paru` uses syntax similar to `pacman`, making it easy to pick up.
 
 To install an AUR package, you can run:
@@ -173,7 +178,7 @@ For example,
 paru -S chrome
 ```
 
-##### Updating packages
+#### Updating packages
 ```bash
 paru
 ```
@@ -183,7 +188,7 @@ paru -Syu
 ```
 This updates all packages from both official repositories and the AUR.
 
-##### paru tips
+#### paru tips
 - **Exit review**: Press q to exit during review
 - **View PKGBUILD**: `paru -Gp package` lets you view the package build script before installation
 - **View AUR comments**: `paru -Gc package` lets you view comments from other users about the package
@@ -200,4 +205,3 @@ Based on the suffix:
 
 - `-bin`: This package is a binary package, which means it's **pre-compiled** and ready to use. You don't need to build it from source
 - If there's no suffix, it usually means that the package is the "release" version. In other words, it's the latest stable version of the software, without any suffixes or prefixes.
-```

@@ -1,4 +1,5 @@
 # Nvidia 支持
+
 从 `24.11.1` 版本开始，Nyarch Linux 再次支持**预装 Nvidia 专有驱动**的 Nyarch 版本。
 
 **注意：** Nvidia 版本不支持 RTX5000 GPU。您需要在普通 ISO 上[手动安装](install_nvidia_drivers.md) `nvidia-open` 驱动喵～。

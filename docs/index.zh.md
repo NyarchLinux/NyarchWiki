@@ -1,19 +1,19 @@
 # Nyarch Wiki
 
-Nyarch Linux Wiki 旨在为所有技能水平的用户提供**简单明了**且**易于访问**的资源，特别是对 Nyarch Linux 新手用户。
-与全面的 [Arch Wiki](https://wiki.archlinux.org) 不同，Nyarch Linux Wiki 专注于提供**更简单、易于理解的各种主题信息**。此外，它还提供 Nyarch 特定的**指导和建议**，帮助您提升 Nyarch Linux 的使用体验喵～。
+Nyarch Linux Wiki 旨在为各种技能水平的用户，尤其是 Nyarch Linux 新手用户，提供**简明易懂**且**易于访问**的资源。
+与内容全面的 [Arch Linux 中文维基](https://wiki.archlinuxcn.org/wiki/) 不同，Nyarch Linux Wiki 专注于**以更简单、易于理解的方式来提供各类主题信息**。此外，它还提供 Nyarch 特定的**指导和建议**，帮助您提升 Nyarch Linux 的使用体验喵～。
 
 ## 本 Wiki 包含的内容
 
-- 面向初学者的简单教程和建议
-- 关于 Linux 和 Arch Linux 的简化说明（比 Arch Wiki 更简单，但也提供相关链接）
-- Nyarch 特定的使用建议
+- 面向初学者的简明教程与建议
+- 关于 Linux 和 Arch Linux 的简明说明（比 Arch Wiki 更易理解，同时提供相关链接）
+- 针对 Nyarch 的使用建议
 
 ## 本 Wiki 不包含的内容
 
-- 服务器相关内容
-- 高级或危险的主题
-- 详细的技术说明
+- 服务器运行与维护的相关内容
+- 高阶或危险的技术主题
+- 详细的技术描述
 
 ## 为 Wiki 做贡献
 
